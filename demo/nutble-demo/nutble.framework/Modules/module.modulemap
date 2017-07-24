@@ -1,0 +1,6 @@
+framework module nutble {
+  umbrella header "nutble.h"
+
+  export *
+  module * { export * }
+}
