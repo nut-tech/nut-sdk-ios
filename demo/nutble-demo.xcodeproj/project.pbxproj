@@ -337,7 +337,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nutble-demo",
-					"../framework/**",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
