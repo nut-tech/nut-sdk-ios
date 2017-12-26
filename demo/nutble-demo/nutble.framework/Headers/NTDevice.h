@@ -71,6 +71,9 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 /* Used to disconnect the device, or cancel a pending connection attempt */
 - (void)cancelConnection;
 
+/* Used to shutdown to the device, if the device is already disconnected, this API does nothing.*/
+- (BOOL)shutdown;
+
 /* If the device is connected, calling this method will send a command to beep the device for the duration passed in. The maximum timeout is 30 seconds*/
 - (BOOL)beep:(BOOL)enabled withTimeOutDuration:(NSInteger)timeout;
 

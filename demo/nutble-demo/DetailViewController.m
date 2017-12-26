@@ -61,6 +61,10 @@
     isBeeping = !isBeeping;
 }
 
+- (IBAction)shutdown:(id)sender {
+    [self.device shutdown];
+}
+
 - (IBAction)rightItemAction:(id)sender
 {
     BOOL toBind = ![[AppDelegate sharedInstance] isDeviceBound:self.device.identifier];

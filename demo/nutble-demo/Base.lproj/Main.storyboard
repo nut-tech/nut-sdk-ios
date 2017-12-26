@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aNM-qG-JZY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aNM-qG-JZY">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JFd-Da-iWO" id="GYE-6w-4qZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -110,16 +110,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lym-pl-BZT">
+                                <rect key="frame" x="146" y="189" width="82" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="KRQ-8n-g5J"/>
+                                    <constraint firstAttribute="height" constant="43" id="RtK-A8-2E3"/>
+                                </constraints>
+                                <state key="normal" title="关机"/>
+                                <connections>
+                                    <action selector="shutdown:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="lOl-ie-LQU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lym-pl-BZT" secondAttribute="trailing" constant="131" id="2Eo-3E-irH"/>
                             <constraint firstItem="1hm-lt-7GB" firstAttribute="leading" secondItem="ZTZ-qv-F3A" secondAttribute="leading" id="6I6-T6-VFT"/>
                             <constraint firstItem="f6B-Ep-Y0q" firstAttribute="top" secondItem="faA-jC-Mnj" secondAttribute="bottom" constant="74" id="6z1-ES-D1u"/>
                             <constraint firstItem="9j8-IE-ssT" firstAttribute="centerY" secondItem="ZTZ-qv-F3A" secondAttribute="centerY" id="Acm-5G-uvA"/>
+                            <constraint firstItem="Lym-pl-BZT" firstAttribute="top" secondItem="f6B-Ep-Y0q" secondAttribute="bottom" constant="8" id="FDE-F2-P0W"/>
                             <constraint firstItem="AUu-BU-NG9" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leading" constant="58" id="MJQ-hx-eqr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fNP-2P-Cje" secondAttribute="trailing" constant="39" id="Rls-3A-sPW"/>
                             <constraint firstItem="FOS-Ed-y6Y" firstAttribute="centerY" secondItem="XMY-Ka-QLM" secondAttribute="centerY" id="VLs-J2-zwK"/>
                             <constraint firstItem="fNP-2P-Cje" firstAttribute="trailing" secondItem="FOS-Ed-y6Y" secondAttribute="trailing" id="bZm-6e-MI1"/>
+                            <constraint firstItem="Lym-pl-BZT" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="130" id="f86-38-AaN"/>
                             <constraint firstItem="f6B-Ep-Y0q" firstAttribute="centerX" secondItem="tpI-Kh-H2d" secondAttribute="centerX" id="llk-ma-7K2"/>
                             <constraint firstItem="ZTZ-qv-F3A" firstAttribute="top" secondItem="AUu-BU-NG9" secondAttribute="bottom" constant="18" id="oDr-yt-vg6"/>
                             <constraint firstItem="AUu-BU-NG9" firstAttribute="leading" secondItem="XMY-Ka-QLM" secondAttribute="leading" id="tOd-qA-iJS"/>
@@ -156,7 +170,7 @@
             <objects>
                 <navigationController id="aNM-qG-JZY" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vnj-gw-GbO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
