@@ -32,6 +32,9 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 /* It will be called after you call readRSSI on a NTDevice object */
 - (void)device:(NTDevice *)device didUpdateRSSI:(NSNumber *)RSSI;
 
+/* It will be called after you call readBattery on a NTDevice object */
+- (void)device:(NTDevice *)device didUpdateBattery:(NSNumber *) battery;
+
 /* It will be called when you clicked the button on the device. The param numberOfClick could be 0, 1 or 2. When numberOfClick is 0, it means long press(press and hold for 2 seconds) */
 - (void)device:(NTDevice *)device didClicked:(NSInteger)numberOfClick;
 
@@ -82,5 +85,8 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 
 /* Read the RSSI from the device, the result will be send back from delegate method -device:didUpdateRSSI: */
 - (void)readRSSI;
+
+/* Read the battery from the device, the result will be send back from delegate method -device:didUpdateBattery: */
+- (void)readBattery;
 
 @end
