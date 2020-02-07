@@ -10,6 +10,7 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 
 @class NTDevice;
+@class NTDeviceAuthController;
 
 typedef NS_ENUM(NSUInteger, NTDeviceState) {
     NTDeviceStateDisconnected = 0,
@@ -67,6 +68,8 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 
 /* The unique identifier read from the device */
 @property (nonatomic,strong,readonly) NSString *deviceID;
+
+@property (nonatomic,strong,readwrite) NTDeviceAuthController *deviceAuthController;
 
 /* Used to connect to the device, if the device is already connected, this API does nothing.*/
 - (void)connect;

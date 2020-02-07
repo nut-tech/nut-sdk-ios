@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 
+/* Option key for startScanWithOptions */
+extern NSString *const NTCentralManagerScanOptionAllowDuplicatesKey;
+
 @class NTDevice;
 @protocol NTDeviceManagerDelegate;
 
@@ -51,7 +54,3 @@
 - (void)deviceManager:(NTDeviceManager *)manager didDiscoveredDevice:(NTDevice *)device RSSI:(NSNumber *)rssi;
 
 @end
-
-/* Option key for startScanWithOptions */
-extern NSString *const NTCentralManagerScanOptionAllowDuplicatesKey;
-
