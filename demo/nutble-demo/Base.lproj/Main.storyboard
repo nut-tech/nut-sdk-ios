@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aNM-qG-JZY">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aNM-qG-JZY">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JFd-Da-iWO" id="GYE-6w-4qZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="348" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -54,107 +51,166 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="断开手机提醒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMY-Ka-QLM">
-                                <rect key="frame" x="58" y="284" width="120" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="断开贴片提醒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUu-BU-NG9">
-                                <rect key="frame" x="58" y="323" width="120" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FOS-Ed-y6Y">
-                                <rect key="frame" x="271" y="279" width="51" height="31"/>
-                                <connections>
-                                    <action selector="phoneDisconnectAction:" destination="hVP-Ee-lFb" eventType="valueChanged" id="liw-9T-Ynv"/>
-                                </connections>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNP-2P-Cje">
-                                <rect key="frame" x="271" y="318" width="51" height="31"/>
-                                <connections>
-                                    <action selector="nutDisconnectAction:" destination="hVP-Ee-lFb" eventType="valueChanged" id="Y5e-ib-waS"/>
-                                </connections>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="手机重连提醒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTZ-qv-F3A">
-                                <rect key="frame" x="58" y="362" width="120" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9j8-IE-ssT">
-                                <rect key="frame" x="271" y="357" width="51" height="31"/>
-                                <connections>
-                                    <action selector="phoneReconnectAction:" destination="hVP-Ee-lFb" eventType="valueChanged" id="lUF-8a-Tbk"/>
-                                </connections>
-                            </switch>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6B-Ep-Y0q">
-                                <rect key="frame" x="146.5" y="138" width="82" height="43"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6B-Ep-Y0q">
+                                <rect key="frame" x="36" y="74" width="140" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="82" id="Eic-RL-Pb1"/>
-                                    <constraint firstAttribute="height" constant="43" id="rDg-wS-8wP"/>
+                                    <constraint firstAttribute="width" constant="140" id="52s-HF-3nI"/>
+                                    <constraint firstAttribute="height" constant="44" id="rDg-wS-8wP"/>
                                 </constraints>
-                                <state key="normal" title="呼叫"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Find Device"/>
                                 <connections>
                                     <action selector="beep:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="xWA-Xw-VF1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hm-lt-7GB">
-                                <rect key="frame" x="58" y="423" width="259" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOd-7N-bKT">
+                                <rect key="frame" x="199" y="74" width="140" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="rQl-Q1-xu8"/>
+                                    <constraint firstAttribute="width" constant="140" id="z5W-1U-mX8"/>
+                                    <constraint firstAttribute="height" constant="44" id="zxL-vI-cxm"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Shutdown"/>
+                                <connections>
+                                    <action selector="shutdown:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="afH-vE-mdQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV2-va-6r6">
+                                <rect key="frame" x="36" y="123" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="oho-2e-mUt"/>
+                                    <constraint firstAttribute="height" constant="44" id="tVl-qq-vNl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Read RSSI"/>
+                                <connections>
+                                    <action selector="readRSSI:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="rzB-2Z-zNV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4H-OX-z6N">
+                                <rect key="frame" x="36" y="172" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="D1n-au-qzg"/>
+                                    <constraint firstAttribute="width" constant="140" id="ahz-fc-0JP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="BeaconUUID"/>
+                                <connections>
+                                    <action selector="setBeaconUUID:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="P3q-wV-sYQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-0y-nQY">
+                                <rect key="frame" x="199" y="123" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="XI2-0x-yHh"/>
+                                    <constraint firstAttribute="width" constant="140" id="gMc-9o-FWT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Read Battery"/>
+                                <connections>
+                                    <action selector="readBattery:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="c9X-MY-Mn9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pi2-AA-B04">
+                                <rect key="frame" x="199" y="172" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="diC-im-Gs5"/>
+                                    <constraint firstAttribute="height" constant="44" id="lOR-82-K1M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="BeaconMajorMinor"/>
+                                <connections>
+                                    <action selector="setBeaconMajorMinor:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="Kfa-HE-nOT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXC-Gz-bGB">
+                                <rect key="frame" x="36" y="221" width="140" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="8D3-T1-Jen"/>
+                                    <constraint firstAttribute="height" constant="44" id="Ldd-UO-VN0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="DFU Mode"/>
+                                <connections>
+                                    <action selector="enterDFUMode:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="smf-JI-4cN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Alert " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMY-Ka-QLM">
+                                <rect key="frame" x="56" y="285" width="89.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lym-pl-BZT">
-                                <rect key="frame" x="146" y="189" width="82" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="82" id="KRQ-8n-g5J"/>
-                                    <constraint firstAttribute="height" constant="43" id="RtK-A8-2E3"/>
-                                </constraints>
-                                <state key="normal" title="关机"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FOS-Ed-y6Y">
+                                <rect key="frame" x="270" y="279.5" width="51" height="31"/>
                                 <connections>
-                                    <action selector="shutdown:" destination="hVP-Ee-lFb" eventType="touchUpInside" id="lOl-ie-LQU"/>
+                                    <action selector="phoneDisconnectAction:" destination="hVP-Ee-lFb" eventType="valueChanged" id="liw-9T-Ynv"/>
                                 </connections>
-                            </button>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Alert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUu-BU-NG9">
+                                <rect key="frame" x="56" y="323" width="88.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNP-2P-Cje">
+                                <rect key="frame" x="270" y="317.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="nutDisconnectAction:" destination="hVP-Ee-lFb" eventType="valueChanged" id="Y5e-ib-waS"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reconnect Alert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTZ-qv-F3A">
+                                <rect key="frame" x="56" y="360.5" width="117" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9j8-IE-ssT">
+                                <rect key="frame" x="270" y="355" width="51" height="31"/>
+                                <connections>
+                                    <action selector="phoneReconnectAction:" destination="hVP-Ee-lFb" eventType="valueChanged" id="lUF-8a-Tbk"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Lym-pl-BZT" secondAttribute="trailing" constant="131" id="2Eo-3E-irH"/>
-                            <constraint firstItem="1hm-lt-7GB" firstAttribute="leading" secondItem="ZTZ-qv-F3A" secondAttribute="leading" id="6I6-T6-VFT"/>
-                            <constraint firstItem="f6B-Ep-Y0q" firstAttribute="top" secondItem="faA-jC-Mnj" secondAttribute="bottom" constant="74" id="6z1-ES-D1u"/>
-                            <constraint firstItem="9j8-IE-ssT" firstAttribute="centerY" secondItem="ZTZ-qv-F3A" secondAttribute="centerY" id="Acm-5G-uvA"/>
-                            <constraint firstItem="Lym-pl-BZT" firstAttribute="top" secondItem="f6B-Ep-Y0q" secondAttribute="bottom" constant="8" id="FDE-F2-P0W"/>
-                            <constraint firstItem="AUu-BU-NG9" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leading" constant="58" id="MJQ-hx-eqr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fNP-2P-Cje" secondAttribute="trailing" constant="39" id="Rls-3A-sPW"/>
-                            <constraint firstItem="FOS-Ed-y6Y" firstAttribute="centerY" secondItem="XMY-Ka-QLM" secondAttribute="centerY" id="VLs-J2-zwK"/>
-                            <constraint firstItem="fNP-2P-Cje" firstAttribute="trailing" secondItem="FOS-Ed-y6Y" secondAttribute="trailing" id="bZm-6e-MI1"/>
-                            <constraint firstItem="Lym-pl-BZT" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="130" id="f86-38-AaN"/>
-                            <constraint firstItem="f6B-Ep-Y0q" firstAttribute="centerX" secondItem="tpI-Kh-H2d" secondAttribute="centerX" id="llk-ma-7K2"/>
+                            <constraint firstItem="AUu-BU-NG9" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="40" id="3Dr-HT-CiS"/>
+                            <constraint firstItem="f6B-Ep-Y0q" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="20" id="5NZ-9S-Bnd"/>
+                            <constraint firstItem="f6B-Ep-Y0q" firstAttribute="top" secondItem="faA-jC-Mnj" secondAttribute="bottom" constant="30" id="6z1-ES-D1u"/>
+                            <constraint firstItem="9j8-IE-ssT" firstAttribute="centerY" secondItem="ZTZ-qv-F3A" secondAttribute="centerY" id="Ad6-eO-laH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FOS-Ed-y6Y" secondAttribute="trailing" constant="40" id="D05-rg-vQy"/>
+                            <constraint firstItem="gXC-Gz-bGB" firstAttribute="top" secondItem="E4H-OX-z6N" secondAttribute="bottom" constant="5" id="Ezh-Hy-N7L"/>
+                            <constraint firstItem="gXC-Gz-bGB" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="20" id="Gvl-eV-Nne"/>
+                            <constraint firstItem="gDW-0y-nQY" firstAttribute="top" secondItem="NOd-7N-bKT" secondAttribute="bottom" constant="5" id="OMI-Dl-hs5"/>
+                            <constraint firstItem="E4H-OX-z6N" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="20" id="UgZ-wR-b4x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pi2-AA-B04" secondAttribute="trailing" constant="20" id="VVp-Hx-feR"/>
+                            <constraint firstItem="kV2-va-6r6" firstAttribute="top" secondItem="f6B-Ep-Y0q" secondAttribute="bottom" constant="5" id="Xbp-vT-EZx"/>
+                            <constraint firstItem="E4H-OX-z6N" firstAttribute="top" secondItem="kV2-va-6r6" secondAttribute="bottom" constant="5" id="Z7h-DD-SFV"/>
+                            <constraint firstItem="XMY-Ka-QLM" firstAttribute="top" secondItem="gXC-Gz-bGB" secondAttribute="bottom" constant="20" id="Zpn-BN-pA2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NOd-7N-bKT" secondAttribute="trailing" constant="20" id="cfa-eo-Q7i"/>
+                            <constraint firstItem="ZTZ-qv-F3A" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="40" id="guM-WF-2AZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9j8-IE-ssT" secondAttribute="trailing" constant="40" id="hFH-pK-nYc"/>
+                            <constraint firstItem="Pi2-AA-B04" firstAttribute="top" secondItem="gDW-0y-nQY" secondAttribute="bottom" constant="5" id="heb-hs-jzp"/>
+                            <constraint firstItem="NOd-7N-bKT" firstAttribute="top" secondItem="faA-jC-Mnj" secondAttribute="bottom" constant="30" id="i1m-3b-UfJ"/>
+                            <constraint firstItem="XMY-Ka-QLM" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="40" id="izp-rj-pP5"/>
+                            <constraint firstItem="kV2-va-6r6" firstAttribute="leading" secondItem="tpI-Kh-H2d" secondAttribute="leadingMargin" constant="20" id="lKH-vP-h7z"/>
+                            <constraint firstItem="FOS-Ed-y6Y" firstAttribute="centerY" secondItem="XMY-Ka-QLM" secondAttribute="centerY" id="mgj-nC-pDI"/>
                             <constraint firstItem="ZTZ-qv-F3A" firstAttribute="top" secondItem="AUu-BU-NG9" secondAttribute="bottom" constant="18" id="oDr-yt-vg6"/>
-                            <constraint firstItem="AUu-BU-NG9" firstAttribute="leading" secondItem="XMY-Ka-QLM" secondAttribute="leading" id="tOd-qA-iJS"/>
-                            <constraint firstItem="1hm-lt-7GB" firstAttribute="top" secondItem="9j8-IE-ssT" secondAttribute="bottom" constant="35" id="uU7-E5-xWx"/>
-                            <constraint firstItem="AUu-BU-NG9" firstAttribute="centerY" secondItem="tpI-Kh-H2d" secondAttribute="centerY" id="vlf-iK-Rh9"/>
-                            <constraint firstItem="ZTZ-qv-F3A" firstAttribute="leading" secondItem="AUu-BU-NG9" secondAttribute="leading" id="vtO-Qs-3nH"/>
-                            <constraint firstItem="fNP-2P-Cje" firstAttribute="centerY" secondItem="tpI-Kh-H2d" secondAttribute="centerY" id="x95-7r-MCb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fNP-2P-Cje" secondAttribute="trailing" constant="40" id="rwr-Av-wYA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gDW-0y-nQY" secondAttribute="trailing" constant="20" id="vtV-Qh-YRo"/>
                             <constraint firstItem="AUu-BU-NG9" firstAttribute="top" secondItem="XMY-Ka-QLM" secondAttribute="bottom" constant="18" id="xTm-3s-Bk4"/>
-                            <constraint firstItem="9j8-IE-ssT" firstAttribute="trailing" secondItem="FOS-Ed-y6Y" secondAttribute="trailing" id="xVE-FB-UwW"/>
-                            <constraint firstItem="1hm-lt-7GB" firstAttribute="centerX" secondItem="tpI-Kh-H2d" secondAttribute="centerX" id="xyi-VA-H2V"/>
+                            <constraint firstItem="fNP-2P-Cje" firstAttribute="centerY" secondItem="AUu-BU-NG9" secondAttribute="centerY" id="y8h-cX-EIm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ngV-3Q-YXr">
-                        <barButtonItem key="rightBarButtonItem" title="绑定" id="QLu-eW-wKv">
+                        <barButtonItem key="rightBarButtonItem" title="Pair" id="QLu-eW-wKv">
                             <connections>
                                 <action selector="rightItemAction:" destination="hVP-Ee-lFb" id="YVJ-zf-yWe"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="batteryLevel" destination="1hm-lt-7GB" id="GY8-NG-4An"/>
+                        <outlet property="findDeviceButton" destination="f6B-Ep-Y0q" id="ON2-t5-wju"/>
                         <outlet property="nutAlertSwitch" destination="fNP-2P-Cje" id="LdH-Xe-k1T"/>
                         <outlet property="phoneDisconnectSwitch" destination="FOS-Ed-y6Y" id="KFo-eh-HSZ"/>
                         <outlet property="phoneReconnectSwitch" destination="9j8-IE-ssT" id="OaJ-qT-06X"/>
@@ -170,7 +226,7 @@
             <objects>
                 <navigationController id="aNM-qG-JZY" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vnj-gw-GbO">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

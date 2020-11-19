@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06F762525665DDA000D0341 /* dfu_fw_114.zip in Resources */ = {isa = PBXBuildFile; fileRef = C06F762425665DDA000D0341 /* dfu_fw_114.zip */; };
+		C06F762625665EC0000D0341 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761D25662515000D0341 /* iOSDFULibrary.framework */; };
+		C06F762725665EC0000D0341 /* iOSDFULibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761D25662515000D0341 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C06F762825665EC2000D0341 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761F25662526000D0341 /* ZIPFoundation.framework */; };
+		C06F762925665EC2000D0341 /* ZIPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761F25662526000D0341 /* ZIPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DA0576821E07CD350048D42D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0576811E07CD350048D42D /* MBProgressHUD.m */; };
 		DA9F58391DE42C8300961744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9F58381DE42C8300961744 /* main.m */; };
 		DA9F583C1DE42C8300961744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9F583B1DE42C8300961744 /* AppDelegate.m */; };
@@ -26,7 +31,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				C06F762725665EC0000D0341 /* iOSDFULibrary.framework in Embed Frameworks */,
 				DAA64CDB1E166B110012D0D0 /* nutble.framework in Embed Frameworks */,
+				C06F762925665EC2000D0341 /* ZIPFoundation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C06F761D25662515000D0341 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
+		C06F761F25662526000D0341 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZIPFoundation.framework; sourceTree = "<group>"; };
+		C06F762425665DDA000D0341 /* dfu_fw_114.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = dfu_fw_114.zip; sourceTree = "<group>"; };
 		DA0576801E07CD350048D42D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DA0576811E07CD350048D42D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DA9F58341DE42C8300961744 /* nutble-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nutble-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,16 +66,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06F762625665EC0000D0341 /* iOSDFULibrary.framework in Frameworks */,
 				DAA64CDA1E166A910012D0D0 /* nutble.framework in Frameworks */,
+				C06F762825665EC2000D0341 /* ZIPFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C06F762325665DDA000D0341 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C06F762425665DDA000D0341 /* dfu_fw_114.zip */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DA05767A1E07CD300048D42D /* 3rd_parties */ = {
 			isa = PBXGroup;
 			children = (
+				C06F761F25662526000D0341 /* ZIPFoundation.framework */,
+				C06F761D25662515000D0341 /* iOSDFULibrary.framework */,
 				DA05767F1E07CD350048D42D /* MBProgressHUD */,
 			);
 			path = 3rd_parties;
@@ -100,6 +122,7 @@
 		DA9F58361DE42C8300961744 /* nutble-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C06F762325665DDA000D0341 /* Resources */,
 				DA05767A1E07CD300048D42D /* 3rd_parties */,
 				DA9F583A1DE42C8300961744 /* AppDelegate.h */,
 				DA9F583B1DE42C8300961744 /* AppDelegate.m */,
@@ -201,6 +224,7 @@
 				DA9F58471DE42C8300961744 /* LaunchScreen.storyboard in Resources */,
 				DA9F58441DE42C8300961744 /* Assets.xcassets in Resources */,
 				DA9F58421DE42C8300961744 /* Main.storyboard in Resources */,
+				C06F762525665DDA000D0341 /* dfu_fw_114.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +365,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nutble-demo",
+					"$(PROJECT_DIR)/nutble-demo/3rd_parties",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -364,6 +389,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nutble-demo",
+					"$(PROJECT_DIR)/nutble-demo/3rd_parties",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

@@ -71,6 +71,12 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 
 @property (nonatomic,strong,readwrite) NTDeviceAuthController *deviceAuthController;
 
+/* Get the system CBPeripheral instance of the current device */
+- (CBPeripheral *)blePeripheral;
+
+/* Get the connection status of the current device(by the CBPeripheral instance) */
+- (BOOL)isBLEConnected;
+
 /* Used to connect to the device, if the device is already connected, this API does nothing.*/
 - (void)connect;
 
@@ -85,6 +91,14 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 
 /* Enabling or disabling the device alarm when the device disconnected from the cell phone */
 - (BOOL)setHardwareAlarmEnabled:(BOOL)enabled;
+
+/*Set the Beacon UUID configuration of the device*/
+- (BOOL)setBeaconUUID:(NSString *)beaconUUID;
+
+/*Set the Beacon Major and Minor configuration of the device*/
+- (BOOL)setBeaconMajor:(NSNumber *)major minor:(NSNumber *)minor;
+
+- (BOOL)switchToDFUMode;
 
 /* Read the RSSI from the device, the result will be send back from delegate method -device:didUpdateRSSI: */
 - (void)readRSSI;

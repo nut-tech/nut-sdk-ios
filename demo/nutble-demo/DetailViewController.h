@@ -14,6 +14,7 @@
 
 @property (nonatomic,strong) NTDevice *device;
 @property (nonatomic,weak) IBOutlet UIBarButtonItem *rightItem;
+@property (weak, nonatomic) IBOutlet UIButton *findDeviceButton;
 @property (nonatomic,weak) IBOutlet UISwitch *phoneDisconnectSwitch;
 @property (nonatomic,weak) IBOutlet UISwitch *phoneReconnectSwitch;
 @property (nonatomic,weak) IBOutlet UISwitch *nutAlertSwitch;
