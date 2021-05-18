@@ -4,3 +4,8 @@ framework module nutble {
   export *
   module * { export * }
 }
+
+module nutble.Swift {
+    header "nutble-Swift.h"
+    requires objc
+}

@@ -36,7 +36,11 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 /* It will be called after you call readBattery on a NTDevice object */
 - (void)device:(NTDevice *)device didUpdateBattery:(NSNumber *) battery;
 
-/* It will be called when you clicked the button on the device. The param numberOfClick could be 0, 1 or 2. When numberOfClick is 0, it means long press(press and hold for 2 seconds) */
+/* It will be called when you clicked the button on the device.
+ numberOfClick Value
+ 0:long press(press and hold for 2 seconds)
+ 1:Single Click
+ 2:Double Click */
 - (void)device:(NTDevice *)device didClicked:(NSInteger)numberOfClick;
 
 @end
