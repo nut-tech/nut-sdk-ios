@@ -30,7 +30,7 @@ NSString * const localNameKey = @"localNameKey";
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [NTDeviceManager sharedManager].openID = @"6def004cf7a5e040770df900d852540c";
+    [NTDeviceManager sharedManager].openID = @"45aa345d942588b0d2d295e049157e8b";
     
     UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
                                                     
