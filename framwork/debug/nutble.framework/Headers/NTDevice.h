@@ -34,7 +34,7 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 - (void)device:(NTDevice *)device didUpdateRSSI:(NSNumber *)RSSI;
 
 /* It will be called after you call readBattery on a NTDevice object */
-- (void)device:(NTDevice *)device didUpdateBattery:(NSNumber *) battery;
+- (void)device:(NTDevice *)device didUpdateBattery:(NSNumber *)battery;
 
 /* It will be called when you clicked the button on the device.
  numberOfClick Value
@@ -44,42 +44,49 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 - (void)device:(NTDevice *)device didClicked:(NSInteger)numberOfClick;
 
 @end
+
 @interface NTDevice : NSObject
 
 /* The delegate of the NTDevice object */
-@property (nonatomic,weak) id <NTDeviceDelegate> delegate;
+@property (nonatomic, weak) id <NTDeviceDelegate> delegate;
 
 /* The identifier is a system generated UUID for each device. See CBPeripheral's identifier for more information*/
-@property (nonatomic,readonly) NSString *identifier;
+@property (nonatomic, readonly) NSString *identifier;
 
 /* The local name advertised by the device. */
-@property (nonatomic,readonly) NSString *localName;
+@property (nonatomic, readonly) NSString *advLocalName;
 
 /* The fireware version read from the device. */
-@property (nonatomic,readonly) NSString *firmwareVersion;
+@property (nonatomic, readonly) NSString *firmwareVersion;
 
 /* The hardware version read from the device. */
-@property (nonatomic,readonly) NSString *hardwareVersion;
+@property (nonatomic, readonly) NSString *hardwareVersion;
 
 /* Setting this property to YES will trigger auto reconnect after the device disconnected or failed to connect */
-@property (nonatomic,assign)   BOOL autoReconnect;
+@property (nonatomic, assign)   BOOL autoReconnect;
 
 /* The device connection state, see NTDeviceState emun for more information */
-@property (nonatomic,assign)   NTDeviceState state;
+@property (nonatomic, assign)   NTDeviceState state;
 
 /* The device's battery level, ranged from 0 to 100 */
-@property (nonatomic,readonly) NSNumber *battery;
+@property (nonatomic, readonly) NSNumber *battery;
 
 /* The unique identifier read from the device */
-@property (nonatomic,strong,readonly) NSString *deviceID;
+@property (nonatomic, strong, readonly) NSString *deviceID;
 
-@property (nonatomic,strong,readwrite) NTDeviceAuthController *deviceAuthController;
+@property (nonatomic, strong, readwrite) NTDeviceAuthController *deviceAuthController;
 
 /* Get the system CBPeripheral instance of the current device */
 - (CBPeripheral *)blePeripheral;
 
+/*Determine if it is supported by adv local name*/
+- (BOOL)isSupportedDevice;
+
 /* Get the connection status of the current device(by the CBPeripheral instance) */
 - (BOOL)isBLEConnected;
+
+/* Get the device's estimate battery level, ranged from 0 to 100 */
+- (NSNumber *)estimateBatteryLevel;
 
 /* Used to connect to the device, if the device is already connected, this API does nothing.*/
 - (void)connect;

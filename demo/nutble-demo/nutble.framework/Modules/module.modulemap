@@ -6,6 +6,6 @@ framework module nutble {
 }
 
 module nutble.Swift {
-    header "nutble-Swift.h"
-    requires objc
+  header "nutble-Swift.h"
+  requires objc
 }

@@ -54,7 +54,6 @@
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    
 }
 
 - (void)loadBoundDevices:(BOOL)boot{
@@ -148,7 +147,7 @@
         case 0:
         {
             NTDevice *device = [self.boundDevices objectAtIndex:indexPath.row];
-            NSString *localName = device.localName ? device.localName : [[AppDelegate sharedInstance] settingForDevice:device.identifier key:localNameKey];
+            NSString *localName = device.advLocalName ? device.advLocalName : [[AppDelegate sharedInstance] settingForDevice:device.identifier key:localNameKey];
             cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ %@ ",localName, [NSString stringWithFormat:@" %llX",[device.deviceID longLongValue]], device.RSSI];
 
             break;
@@ -156,7 +155,7 @@
         case 1:
         {
             NTDevice *device = [self.unboundDevices objectAtIndex:indexPath.row];
-            cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ %@ ",device.localName, [NSString stringWithFormat:@" %llX",[device.deviceID longLongValue]], device.RSSI];
+            cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ %@ ",device.advLocalName, [NSString stringWithFormat:@" %llX",[device.deviceID longLongValue]], device.RSSI];
             break;
         }
         default:
@@ -188,7 +187,7 @@
         case NTDeviceStateConnecting:
         case NTDeviceStateDisconnected:
         {
-            if ([device.localName isEqual:@"DfuTarg"]) {
+            if ([device.advLocalName isEqual:@"DfuTarg"]) {
                 [self startDeviceDFU:device.blePeripheral];
             } else {
                 [device connect];
@@ -215,7 +214,7 @@
 #pragma mark NTDeviceManagerDelegate
 
 - (void)deviceManager:(NTDeviceManager *)manager didDiscoveredDevice:(NTDevice *)device RSSI:(NSNumber *)rssi{
-    if (rssi.integerValue > -50 && rssi.integerValue < 0 && ![self.boundDevices containsObject:device]){
+    if (rssi.integerValue > -60 && rssi.integerValue < 0 && ![self.boundDevices containsObject:device]){
         [self.unboundDevices insertObject:device atIndex:self.unboundDevices.count];
     }
     device.delegate = self;
@@ -275,7 +274,8 @@
 }
 
 - (void)device:(NTDevice *)device didUpdateBattery:(NSNumber *)batteryLevel{
-    NSLog(@"Device Battery update delegate:%@", batteryLevel);
+    NSNumber *estBattery = [device estimateBatteryLevel];
+    NSLog(@"Device Battery update delegate cur:%@%% est:%@%%", batteryLevel, estBattery);
     NSString *batteryLevelText = [NSString stringWithFormat:@"Battery Level %ld%%", (long)batteryLevel.integerValue];
     [[AppDelegate sharedInstance] showToastWithTitle:@"Device State" detailsTitle:batteryLevelText];
 }

@@ -188,7 +188,7 @@ NSString * const localNameKey = @"localNameKey";
     [dict setObject:@YES forKey:phoneDisconnectAlertKey];
     [dict setObject:@YES forKey:phoneReconnectAlertKey];
     [dict setObject:@YES forKey:nutAlertKey];
-    [dict setObject:device.localName forKey:localNameKey];
+    [dict setObject:device.advLocalName forKey:localNameKey];
     
     [mutableArray addObject:@{deviceIdentifier: dict}];
     
