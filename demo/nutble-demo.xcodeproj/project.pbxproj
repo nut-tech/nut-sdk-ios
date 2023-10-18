@@ -370,7 +370,7 @@
 					"$(PROJECT_DIR)/nutble-demo/3rd_parties",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nutspace.bledemo-dev";
@@ -399,7 +399,7 @@
 					"$(PROJECT_DIR)/nutble-demo/3rd_parties",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nutspace.bledemo;

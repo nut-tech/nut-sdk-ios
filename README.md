@@ -14,3 +14,6 @@ nut SDK for iOS
 ## v1.4.2
 - Fix Read Battery.
 - Fix Xcode12.5 build issue.
+
+## v1.4.3
+- Support to New DeviceName.
