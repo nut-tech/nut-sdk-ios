@@ -19,6 +19,12 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
     NTDeviceStateDisconnecting
 };
 
+typedef NS_ENUM(NSInteger, NTDevicePairState) {
+    NTDevicePairUnknown = -1,
+    NTDevicePairUnpair = 0,
+    NTDevicePairPaired = 1
+};
+
 @protocol NTDeviceDelegate <NSObject>
 
 /* It will be called after the device connected to the phone. */
@@ -74,6 +80,9 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 /* The unique identifier read from the device */
 @property (nonatomic, strong, readonly) NSString *deviceID;
 
+/* The device's pair status, unknown:-1 unpair:0 paired:1 */
+@property (nonatomic, readonly) NSNumber *pairStatus;
+
 @property (nonatomic, strong, readwrite) NTDeviceAuthController *deviceAuthController;
 
 /* Get the system CBPeripheral instance of the current device */
@@ -108,6 +117,8 @@ typedef NS_ENUM(NSUInteger, NTDeviceState) {
 
 /*Set the Beacon Major and Minor configuration of the device*/
 - (BOOL)setBeaconMajor:(NSNumber *)major minor:(NSNumber *)minor;
+
+- (BOOL)setDevicePair:(BOOL)enabled;
 
 - (BOOL)switchToDFUMode;
 
