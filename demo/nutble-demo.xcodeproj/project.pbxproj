@@ -3,17 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C04024B82653C7CD00B587F3 /* nutble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04024B42653C6E000B587F3 /* nutble.framework */; };
-		C04024B92653C7CD00B587F3 /* nutble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C04024B42653C6E000B587F3 /* nutble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C04024B82653C7CD00B587F3 /* nutble.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04024B42653C6E000B587F3 /* nutble.xcframework */; };
+		C04024B92653C7CD00B587F3 /* nutble.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C04024B42653C6E000B587F3 /* nutble.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C06F762525665DDA000D0341 /* dfu_fw_114.zip in Resources */ = {isa = PBXBuildFile; fileRef = C06F762425665DDA000D0341 /* dfu_fw_114.zip */; };
-		C06F762625665EC0000D0341 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761D25662515000D0341 /* iOSDFULibrary.framework */; };
-		C06F762725665EC0000D0341 /* iOSDFULibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761D25662515000D0341 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C06F762825665EC2000D0341 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761F25662526000D0341 /* ZIPFoundation.framework */; };
-		C06F762925665EC2000D0341 /* ZIPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C06F761F25662526000D0341 /* ZIPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0SCENE032F90000100BE9FA1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0SCENE022F90000100BE9FA1 /* SceneDelegate.m */; };
 		DA0576821E07CD350048D42D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0576811E07CD350048D42D /* MBProgressHUD.m */; };
 		DA9F58391DE42C8300961744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9F58381DE42C8300961744 /* main.m */; };
 		DA9F583C1DE42C8300961744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9F583B1DE42C8300961744 /* AppDelegate.m */; };
@@ -31,9 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C04024B92653C7CD00B587F3 /* nutble.framework in Embed Frameworks */,
-				C06F762725665EC0000D0341 /* iOSDFULibrary.framework in Embed Frameworks */,
-				C06F762925665EC2000D0341 /* ZIPFoundation.framework in Embed Frameworks */,
+				C04024B92653C7CD00B587F3 /* nutble.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,10 +36,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C04024B42653C6E000B587F3 /* nutble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nutble.framework; path = "nutble-demo/nutble.framework"; sourceTree = "<group>"; };
+		C04024B42653C6E000B587F3 /* nutble.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nutble.xcframework; path = "nutble-demo/nutble.xcframework"; sourceTree = "<group>"; };
 		C06F761D25662515000D0341 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
 		C06F761F25662526000D0341 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZIPFoundation.framework; sourceTree = "<group>"; };
 		C06F762425665DDA000D0341 /* dfu_fw_114.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = dfu_fw_114.zip; sourceTree = "<group>"; };
+		C0SCENE012F90000100BE9FA1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C0SCENE022F90000100BE9FA1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DA0576801E07CD350048D42D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DA0576811E07CD350048D42D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DA9F58341DE42C8300961744 /* nutble-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nutble-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,9 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04024B82653C7CD00B587F3 /* nutble.framework in Frameworks */,
-				C06F762625665EC0000D0341 /* iOSDFULibrary.framework in Frameworks */,
-				C06F762825665EC2000D0341 /* ZIPFoundation.framework in Frameworks */,
+				C04024B82653C7CD00B587F3 /* nutble.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +121,8 @@
 				DA05767A1E07CD300048D42D /* 3rd_parties */,
 				DA9F583A1DE42C8300961744 /* AppDelegate.h */,
 				DA9F583B1DE42C8300961744 /* AppDelegate.m */,
+				C0SCENE012F90000100BE9FA1 /* SceneDelegate.h */,
+				C0SCENE022F90000100BE9FA1 /* SceneDelegate.m */,
 				DA9F583D1DE42C8300961744 /* TableViewController.h */,
 				DA9F583E1DE42C8300961744 /* TableViewController.m */,
 				DAFB9D261DED6A1900339336 /* DetailViewController.h */,
@@ -150,7 +147,7 @@
 		DA9F58501DE42E6B00961744 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C04024B42653C6E000B587F3 /* nutble.framework */,
+				C04024B42653C6E000B587F3 /* nutble.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,6 +163,7 @@
 				DA9F58311DE42C8300961744 /* Frameworks */,
 				DA9F58321DE42C8300961744 /* Resources */,
 				DA9F585B1DE431CB00961744 /* Embed Frameworks */,
+				C0DFUEMBED2F90000200BE9FA1 /* Embed Device-Only DFU Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +228,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0DFUEMBED2F90000200BE9FA1 /* Embed Device-Only DFU Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/nutble-demo/3rd_parties/iOSDFULibrary.framework",
+				"$(PROJECT_DIR)/nutble-demo/3rd_parties/ZIPFoundation.framework",
+			);
+			name = "Embed Device-Only DFU Frameworks";
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/iOSDFULibrary.framework",
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ZIPFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\n# iOSDFULibrary / ZIPFoundation are device-only arm64 binaries.\n# Embed only on iphoneos; strip leftover __LLVM bitcode so App Store validation passes.\nif [ \"${PLATFORM_NAME}\" != \"iphoneos\" ]; then\n  exit 0\nfi\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\nmkdir -p \"${FRAMEWORKS_DIR}\"\nfor fw in iOSDFULibrary ZIPFoundation; do\n  SRC=\"${PROJECT_DIR}/nutble-demo/3rd_parties/${fw}.framework\"\n  DST=\"${FRAMEWORKS_DIR}/${fw}.framework\"\n  if [ ! -d \"${SRC}\" ]; then\n    echo \"error: missing ${SRC}\" >&2\n    exit 1\n  fi\n  rm -rf \"${DST}\"\n  /usr/bin/ditto \"${SRC}\" \"${DST}\"\n  BIN=\"${DST}/${fw}\"\n  if /usr/bin/otool -l \"${BIN}\" 2>/dev/null | /usr/bin/grep -q '__LLVM'; then\n    /usr/bin/xcrun bitcode_strip -r \"${BIN}\" -o \"${BIN}\"\n  fi\n  SIGN_IDENTITY=\"${EXPANDED_CODE_SIGN_IDENTITY:-}\"\n  if [ -z \"${SIGN_IDENTITY}\" ] || [ \"${SIGN_IDENTITY}\" = \"-\" ]; then\n    SIGN_IDENTITY=\"${CODE_SIGN_IDENTITY:-}\"\n  fi\n  if [ -n \"${SIGN_IDENTITY}\" ] && [ \"${SIGN_IDENTITY}\" != \"-\" ] && [ \"${CODE_SIGNING_ALLOWED:-YES}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign \"${SIGN_IDENTITY}\" --preserve-metadata=identifier,entitlements --timestamp=none \"${DST}\"\n  fi\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA9F58301DE42C8300961744 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -238,6 +258,7 @@
 				DA9F583F1DE42C8300961744 /* TableViewController.m in Sources */,
 				DA0576821E07CD350048D42D /* MBProgressHUD.m in Sources */,
 				DA9F583C1DE42C8300961744 /* AppDelegate.m in Sources */,
+				C0SCENE032F90000100BE9FA1 /* SceneDelegate.m in Sources */,
 				DA9F58391DE42C8300961744 /* main.m in Sources */,
 				DAFB9D281DED6A1900339336 /* DetailViewController.m in Sources */,
 			);
@@ -360,19 +381,31 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 20261027;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D492394ASA;
 				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nutble-demo",
 					"$(PROJECT_DIR)/nutble-demo/3rd_parties",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.1;
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-framework",
+					iOSDFULibrary,
+					"-framework",
+					ZIPFoundation,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nutspace.bledemo-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -389,19 +422,31 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 20261027;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D492394ASA;
 				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/nutble-demo",
 					"$(PROJECT_DIR)/nutble-demo/3rd_parties",
 				);
 				INFOPLIST_FILE = "nutble-demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.1;
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-framework",
+					iOSDFULibrary,
+					"-framework",
+					ZIPFoundation,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nutspace.bledemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

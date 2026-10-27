@@ -11,24 +11,32 @@
 #import <nutble/nutble.h>
 #import "DetailViewController.h"
 #import "AppDelegate.h"
+#if !TARGET_OS_SIMULATOR
 #import <iOSDFULibrary/iOSDFULibrary-Swift.h>
+#endif
 
 @interface NTDevice (RSSI)
-@property (nonatomic,readwrite) NSString *RSSI;
+@property (nonatomic, readwrite) NSString *RSSI;
 @end
 
+#if !TARGET_OS_SIMULATOR
 @interface TableViewController ()  <NTDeviceManagerDelegate, NTDeviceDelegate, DFUServiceDelegate, DFUProgressDelegate, LoggerDelegate>
+#else
+@interface TableViewController ()  <NTDeviceManagerDelegate, NTDeviceDelegate>
+#endif
 @property (nonatomic, strong) NSMutableDictionary *devicesByUUID;
 @property (nonatomic, strong) NSMutableOrderedSet *unboundDevices;
 @property (nonatomic, strong) NSMutableArray *boundDevices;
-@property (nonatomic,assign) NSInteger numberOfDevicesToInsert;
-@property (nonatomic,strong) NSTimer *refreshTimer;
-@property (nonatomic,strong) NTDevice *selectedDevice;
-//Device DFU
+@property (nonatomic, assign) NSInteger numberOfDevicesToInsert;
+@property (nonatomic, strong) NSTimer *refreshTimer;
+@property (nonatomic, strong) NTDevice *selectedDevice;
+#if !TARGET_OS_SIMULATOR
+// Device DFU (Nordic iOSDFULibrary is device-only)
 @property (nonatomic, assign, readwrite) DFUState deviceDFUState;
 @property (nonatomic, retain, readwrite) DFUFirmware *dfuFirmware;
 @property (nonatomic, retain, readwrite) DFUServiceInitiator *dfuServiceInitiator;
 @property (nonatomic, retain, readwrite) DFUServiceController *dfuServiceController;
+#endif
 @end
 
 @implementation TableViewController
@@ -54,6 +62,7 @@
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
 - (void)loadBoundDevices:(BOOL)boot{
@@ -155,7 +164,12 @@
         case 1:
         {
             NTDevice *device = [self.unboundDevices objectAtIndex:indexPath.row];
-            cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ %@ ",device.advLocalName, [NSString stringWithFormat:@" %llX",[device.deviceID longLongValue]], device.RSSI];
+            NSMutableString *localName = [NSMutableString stringWithFormat:@"%ld. %@", indexPath.row + 1, device.advLocalName];
+            NSString *suffix = [device nameSuffixFromSecondaryServiceUUID];
+            if (suffix.length > 0 && [localName rangeOfString:suffix].location == NSNotFound) { // 根据 advSecondaryServiceUUID 添加后缀
+                [localName appendString:suffix];
+            }
+            cell.textLabel.text = [NSString stringWithFormat:@"%@ (%@) %@ ", localName, [NSString stringWithFormat:@" %llX",[device.deviceID longLongValue]], device.RSSI];
             break;
         }
         default:
@@ -188,7 +202,12 @@
         case NTDeviceStateDisconnected:
         {
             if ([device.advLocalName isEqual:@"DfuTarg"]) {
+#if !TARGET_OS_SIMULATOR
                 [self startDeviceDFU:device.blePeripheral];
+#else
+                [[AppDelegate sharedInstance] showToastWithTitle:@"DFU"
+                                                   detailsTitle:@"Nordic DFU requires a physical device"];
+#endif
             } else {
                 [device connect];
                 [[AppDelegate sharedInstance] showBusyWindowWithMessage:@"Connecting..."];
@@ -214,7 +233,7 @@
 #pragma mark NTDeviceManagerDelegate
 
 - (void)deviceManager:(NTDeviceManager *)manager didDiscoveredDevice:(NTDevice *)device RSSI:(NSNumber *)rssi{
-    if (rssi.integerValue > -60 && rssi.integerValue < 0 && ![self.boundDevices containsObject:device]){
+    if (rssi.integerValue > -70 && rssi.integerValue < 0 && ![self.boundDevices containsObject:device]){
         [self.unboundDevices insertObject:device atIndex:self.unboundDevices.count];
     }
     device.delegate = self;
@@ -289,12 +308,13 @@
 }
 
 - (void)device:(NTDevice *)device didUpdateRSSI:(NSNumber *)RSSI{
-    NSLog(@"Device Singal RSSI update delegate:%@", RSSI);
+    NSLog(@"Device Signal RSSI update delegate:%@", RSSI);
     device.RSSI = [RSSI stringValue];
     NSString *RSSIText = [NSString stringWithFormat:@"RSSI Value: %@", RSSI.stringValue];
     [[AppDelegate sharedInstance] showToastWithTitle:@"Device State" detailsTitle:RSSIText];
 }
 
+#if !TARGET_OS_SIMULATOR
 #pragma mark Device DFU handler
 
 - (void)startDeviceDFU:(CBPeripheral *)peripheral{
@@ -381,5 +401,6 @@
 - (void)logWith:(enum LogLevel)level message:(NSString *)message{
     NSLog(@"DFULoggerDelegate log: %@", message);
 }
+#endif
 
 @end
