@@ -1,0 +1,710 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hanson/myWork/iOS/nutsdk-ios/nutble/build/xcframework-derived/Build/Products/Release-iphoneos/nutble.framework/nutble'
+relocations:
+  - { offset: 0xB1D58, size: 0x8, addend: 0x0, symName: _nutbleVersionString, symObjAddr: 0x0, symBinAddr: 0x22A60, symSize: 0x0 }
+  - { offset: 0xB1D8D, size: 0x8, addend: 0x0, symName: _nutbleVersionNumber, symObjAddr: 0x28, symBinAddr: 0x22A88, symSize: 0x0 }
+  - { offset: 0xB1DCA, size: 0x8, addend: 0x0, symName: _logData, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA8 }
+  - { offset: 0xB1E0E, size: 0x8, addend: 0x0, symName: _logData, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA8 }
+  - { offset: 0xB1EE5, size: 0x8, addend: 0x0, symName: '+[GeneralUtil runOnMainThread:]', symObjAddr: 0xA8, symBinAddr: 0x40A8, symSize: 0xA0 }
+  - { offset: 0xB1FCF, size: 0x8, addend: 0x0, symName: '___31+[GeneralUtil runOnMainThread:]_block_invoke', symObjAddr: 0x148, symBinAddr: 0x4148, symSize: 0xC }
+  - { offset: 0xB2016, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x154, symBinAddr: 0x4154, symSize: 0x10 }
+  - { offset: 0xB203F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x164, symBinAddr: 0x4164, symSize: 0x8 }
+  - { offset: 0xB205E, size: 0x8, addend: 0x0, symName: '+[GeneralUtil uint8FromBytes:]', symObjAddr: 0x16C, symBinAddr: 0x416C, symSize: 0x30 }
+  - { offset: 0xB20C1, size: 0x8, addend: 0x0, symName: '+[GeneralUtil dataFromHexString:]', symObjAddr: 0x19C, symBinAddr: 0x419C, symSize: 0x1DC }
+  - { offset: 0xB21A0, size: 0x8, addend: 0x0, symName: '+[GeneralUtil hexStringFromData:]', symObjAddr: 0x378, symBinAddr: 0x4378, symSize: 0xE8 }
+  - { offset: 0xB2232, size: 0x8, addend: 0x0, symName: '-[NSObject(NT) NT_isValid]', symObjAddr: 0x460, symBinAddr: 0x4460, symSize: 0x44 }
+  - { offset: 0xB2269, size: 0x8, addend: 0x0, symName: '-[NSArray(NT) NT_JSONData]', symObjAddr: 0x4A4, symBinAddr: 0x44A4, symSize: 0x34 }
+  - { offset: 0xB22A0, size: 0x8, addend: 0x0, symName: '-[NSDictionary(NT) NT_isValidForKey:]', symObjAddr: 0x4D8, symBinAddr: 0x44D8, symSize: 0xA8 }
+  - { offset: 0xB22E7, size: 0x8, addend: 0x0, symName: '-[NSDictionary(NT) NT_JSONData]', symObjAddr: 0x580, symBinAddr: 0x4580, symSize: 0x34 }
+  - { offset: 0xB231E, size: 0x8, addend: 0x0, symName: '-[NSDictionary(NT) NT_allValuesValid]', symObjAddr: 0x5B4, symBinAddr: 0x45B4, symSize: 0x12C }
+  - { offset: 0xB236C, size: 0x8, addend: 0x0, symName: '-[NSMutableDictionary(NT) NT_setObject:forKey:]', symObjAddr: 0x6E0, symBinAddr: 0x46E0, symSize: 0x10 }
+  - { offset: 0xB23B9, size: 0x8, addend: 0x0, symName: '-[NSMutableDictionary(NT) NT_JSONData]', symObjAddr: 0x6F0, symBinAddr: 0x46F0, symSize: 0x34 }
+  - { offset: 0xB23F0, size: 0x8, addend: 0x0, symName: '-[NSMutableDictionary(NT) NT_allValuesValid]', symObjAddr: 0x724, symBinAddr: 0x4724, symSize: 0x12C }
+  - { offset: 0xB243E, size: 0x8, addend: 0x0, symName: '+[NSNumber(NT) NT_numberFromDicValue:]', symObjAddr: 0x850, symBinAddr: 0x4850, symSize: 0xC8 }
+  - { offset: 0xB2491, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_parseURLParams]', symObjAddr: 0x918, symBinAddr: 0x4918, symSize: 0x258 }
+  - { offset: 0xB255C, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_length]', symObjAddr: 0xB70, symBinAddr: 0x4B70, symSize: 0x7C }
+  - { offset: 0xB25D2, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_isValidEmail]', symObjAddr: 0xBEC, symBinAddr: 0x4BEC, symSize: 0xB4 }
+  - { offset: 0xB2638, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_isValidPhoneNumberWithCountryCode:]', symObjAddr: 0xCA0, symBinAddr: 0x4CA0, symSize: 0xC8 }
+  - { offset: 0xB26AE, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_isHTTPURL]', symObjAddr: 0xD68, symBinAddr: 0x4D68, symSize: 0x60 }
+  - { offset: 0xB26F5, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_isSyncedLocalUrl]', symObjAddr: 0xDC8, symBinAddr: 0x4DC8, symSize: 0x44 }
+  - { offset: 0xB273C, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_hexToInteger]', symObjAddr: 0xE0C, symBinAddr: 0x4E0C, symSize: 0x94 }
+  - { offset: 0xB27E3, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_SHA1_Encript]', symObjAddr: 0xEA0, symBinAddr: 0x4EA0, symSize: 0x118 }
+  - { offset: 0xB28BB, size: 0x8, addend: 0x0, symName: '-[NSString(NT) NT_pinyin]', symObjAddr: 0xFB8, symBinAddr: 0x4FB8, symSize: 0x80 }
+  - { offset: 0xB2968, size: 0x8, addend: 0x0, symName: '-[NSString(NT) MD5String]', symObjAddr: 0x1038, symBinAddr: 0x5038, symSize: 0xE8 }
+  - { offset: 0xB2A24, size: 0x8, addend: 0x0, symName: '-[NSDate(NT) NT_stringWithDateFormat:]', symObjAddr: 0x1120, symBinAddr: 0x5120, symSize: 0xC0 }
+  - { offset: 0xB2A7E, size: 0x8, addend: 0x0, symName: '-[NSDate(NT) NT_beginOfDate]', symObjAddr: 0x11E0, symBinAddr: 0x51E0, symSize: 0xA0 }
+  - { offset: 0xB2AD8, size: 0x8, addend: 0x0, symName: '-[NSDate(NT) NT_endOfDate]', symObjAddr: 0x1280, symBinAddr: 0x5280, symSize: 0xA0 }
+  - { offset: 0xB2B32, size: 0x8, addend: 0x0, symName: '-[NSData(NT) NT_string]', symObjAddr: 0x1320, symBinAddr: 0x5320, symSize: 0xC8 }
+  - { offset: 0xB2B6A, size: 0x8, addend: 0x0, symName: '-[NSData(NT) NT_JSONObject]', symObjAddr: 0x13E8, symBinAddr: 0x53E8, symSize: 0x34 }
+  - { offset: 0xB2BA2, size: 0x8, addend: 0x0, symName: '-[NSData(NT) NT_aesCTR_encrypt:]', symObjAddr: 0x141C, symBinAddr: 0x541C, symSize: 0x1C8 }
+  - { offset: 0xB2DE5, size: 0x8, addend: 0x0, symName: '-[NSData(NT) NT_aesCTR_decrypt:]', symObjAddr: 0x15E4, symBinAddr: 0x55E4, symSize: 0x1C8 }
+  - { offset: 0xB2F73, size: 0x8, addend: 0x0, symName: '-[NSData(NT) NT_aes256_encrypt:]', symObjAddr: 0x17AC, symBinAddr: 0x57AC, symSize: 0x108 }
+  - { offset: 0xB30CD, size: 0x8, addend: 0x0, symName: '-[NSData(NT) NT_aes256_decrypt:]', symObjAddr: 0x18B4, symBinAddr: 0x58B4, symSize: 0x108 }
+  - { offset: 0xB31E2, size: 0x8, addend: 0x0, symName: '-[CLLocation(NT) NT_isInLocation:]', symObjAddr: 0x19BC, symBinAddr: 0x59BC, symSize: 0x78 }
+  - { offset: 0xB3439, size: 0x8, addend: 0x0, symName: '-[NTDevice initWithPeripheral:]', symObjAddr: 0x0, symBinAddr: 0x5A34, symSize: 0x88 }
+  - { offset: 0xB3453, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameNut, symObjAddr: 0x7950, symBinAddr: 0x2C030, symSize: 0x0 }
+  - { offset: 0xB3473, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameNutFMNA, symObjAddr: 0x7958, symBinAddr: 0x2C038, symSize: 0x0 }
+  - { offset: 0xB3489, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameNutFMDN, symObjAddr: 0x7960, symBinAddr: 0x2C040, symSize: 0x0 }
+  - { offset: 0xB349F, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameDfu, symObjAddr: 0x7968, symBinAddr: 0x2C048, symSize: 0x0 }
+  - { offset: 0xB34B5, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameJioTag, symObjAddr: 0x7970, symBinAddr: 0x2C050, symSize: 0x0 }
+  - { offset: 0xB34CB, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameJioTagAir, symObjAddr: 0x7978, symBinAddr: 0x2C058, symSize: 0x0 }
+  - { offset: 0xB34E1, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameJioTagGo, symObjAddr: 0x7980, symBinAddr: 0x2C060, symSize: 0x0 }
+  - { offset: 0xB34F7, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameJioTagPro, symObjAddr: 0x7988, symBinAddr: 0x2C068, symSize: 0x0 }
+  - { offset: 0xB350D, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameJioTag2, symObjAddr: 0x7990, symBinAddr: 0x2C070, symSize: 0x0 }
+  - { offset: 0xB3523, size: 0x8, addend: 0x0, symName: _NTDeviceLocalNameKokuyo, symObjAddr: 0x7998, symBinAddr: 0x2C078, symSize: 0x0 }
+  - { offset: 0xB39E0, size: 0x8, addend: 0x0, symName: '-[NTDevice initWithPeripheral:]', symObjAddr: 0x0, symBinAddr: 0x5A34, symSize: 0x88 }
+  - { offset: 0xB3A27, size: 0x8, addend: 0x0, symName: '-[NTDevice blePeripheral]', symObjAddr: 0x88, symBinAddr: 0x5ABC, symSize: 0x4 }
+  - { offset: 0xB3A5C, size: 0x8, addend: 0x0, symName: '-[NTDevice isBLEConnected]', symObjAddr: 0x8C, symBinAddr: 0x5AC0, symSize: 0x40 }
+  - { offset: 0xB3A93, size: 0x8, addend: 0x0, symName: '-[NTDevice identifier]', symObjAddr: 0xCC, symBinAddr: 0x5B00, symSize: 0x64 }
+  - { offset: 0xB3ACA, size: 0x8, addend: 0x0, symName: '-[NTDevice supportedLocalNamePrefix]', symObjAddr: 0x130, symBinAddr: 0x5B64, symSize: 0x80 }
+  - { offset: 0xB3AFD, size: 0x8, addend: 0x0, symName: '-[NTDevice isSupportedDevice]', symObjAddr: 0x1B0, symBinAddr: 0x5BE4, symSize: 0x6C }
+  - { offset: 0xB3B34, size: 0x8, addend: 0x0, symName: '-[NTDevice isDFUModeWithADVData:]', symObjAddr: 0x21C, symBinAddr: 0x5C50, symSize: 0x174 }
+  - { offset: 0xB3BB5, size: 0x8, addend: 0x0, symName: '-[NTDevice isSupportPairingStatus:]', symObjAddr: 0x390, symBinAddr: 0x5DC4, symSize: 0x60 }
+  - { offset: 0xB3C18, size: 0x8, addend: 0x0, symName: '-[NTDevice isAdvPairedStatus:]', symObjAddr: 0x3F0, symBinAddr: 0x5E24, symSize: 0x10C }
+  - { offset: 0xB3CF0, size: 0x8, addend: 0x0, symName: '-[NTDevice parseSecondaryServiceUUIDFromAdvData:]', symObjAddr: 0x4FC, symBinAddr: 0x5F30, symSize: 0xF0 }
+  - { offset: 0xB3D91, size: 0x8, addend: 0x0, symName: '-[NTDevice nameSuffixFromSecondaryServiceUUID]', symObjAddr: 0x5EC, symBinAddr: 0x6020, symSize: 0x144 }
+  - { offset: 0xB3E18, size: 0x8, addend: 0x0, symName: '-[NTDevice estimateBatteryLevel]', symObjAddr: 0x730, symBinAddr: 0x6164, symSize: 0xC4 }
+  - { offset: 0xB3E6F, size: 0x8, addend: 0x0, symName: '-[NTDevice parseDeviceInfoFromCoexistData:]', symObjAddr: 0x7F4, symBinAddr: 0x6228, symSize: 0x758 }
+  - { offset: 0xB407D, size: 0x8, addend: 0x0, symName: '-[NTDevice readingBlocks]', symObjAddr: 0xF4C, symBinAddr: 0x6980, symSize: 0x50 }
+  - { offset: 0xB40B5, size: 0x8, addend: 0x0, symName: '-[NTDevice notifyBlocks]', symObjAddr: 0xF9C, symBinAddr: 0x69D0, symSize: 0x50 }
+  - { offset: 0xB40ED, size: 0x8, addend: 0x0, symName: '-[NTDevice cleanCallbacks]', symObjAddr: 0xFEC, symBinAddr: 0x6A20, symSize: 0x30 }
+  - { offset: 0xB4121, size: 0x8, addend: 0x0, symName: '-[NTDevice connect]', symObjAddr: 0x101C, symBinAddr: 0x6A50, symSize: 0xA8 }
+  - { offset: 0xB4155, size: 0x8, addend: 0x0, symName: '-[NTDevice cancelConnection]', symObjAddr: 0x10C4, symBinAddr: 0x6AF8, symSize: 0xB8 }
+  - { offset: 0xB4189, size: 0x8, addend: 0x0, symName: '-[NTDevice notifyConnected]', symObjAddr: 0x117C, symBinAddr: 0x6BB0, symSize: 0xAC }
+  - { offset: 0xB41CB, size: 0x8, addend: 0x0, symName: '___27-[NTDevice notifyConnected]_block_invoke', symObjAddr: 0x1228, symBinAddr: 0x6C5C, symSize: 0x3C }
+  - { offset: 0xB420D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1264, symBinAddr: 0x6C98, symSize: 0x8 }
+  - { offset: 0xB4234, size: 0x8, addend: 0x0, symName: '-[NTDevice notifyDisconnected]', symObjAddr: 0x1274, symBinAddr: 0x6CA0, symSize: 0xAC }
+  - { offset: 0xB4276, size: 0x8, addend: 0x0, symName: '___30-[NTDevice notifyDisconnected]_block_invoke', symObjAddr: 0x1320, symBinAddr: 0x6D4C, symSize: 0x3C }
+  - { offset: 0xB42B8, size: 0x8, addend: 0x0, symName: '-[NTDevice notifyFailedToConnect:]', symObjAddr: 0x135C, symBinAddr: 0x6D88, symSize: 0xDC }
+  - { offset: 0xB430B, size: 0x8, addend: 0x0, symName: '___34-[NTDevice notifyFailedToConnect:]_block_invoke', symObjAddr: 0x1438, symBinAddr: 0x6E64, symSize: 0x3C }
+  - { offset: 0xB435E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1474, symBinAddr: 0x6EA0, symSize: 0x28 }
+  - { offset: 0xB4387, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x149C, symBinAddr: 0x6EC8, symSize: 0x28 }
+  - { offset: 0xB43A6, size: 0x8, addend: 0x0, symName: '-[NTDevice nutCharactForServiceKey:charactKey:]', symObjAddr: 0x14C4, symBinAddr: 0x6EF0, symSize: 0x16C }
+  - { offset: 0xB4422, size: 0x8, addend: 0x0, symName: '-[NTDevice fmCharactForServiceKey:charactKey:]', symObjAddr: 0x1630, symBinAddr: 0x705C, symSize: 0x16C }
+  - { offset: 0xB449E, size: 0x8, addend: 0x0, symName: '-[NTDevice writeToNutService:charactKey:value:]', symObjAddr: 0x179C, symBinAddr: 0x71C8, symSize: 0x188 }
+  - { offset: 0xB452B, size: 0x8, addend: 0x0, symName: '-[NTDevice writeToFMService:charactKey:value:]', symObjAddr: 0x1924, symBinAddr: 0x7350, symSize: 0x188 }
+  - { offset: 0xB45B8, size: 0x8, addend: 0x0, symName: '-[NTDevice shutdown]', symObjAddr: 0x1AAC, symBinAddr: 0x74D8, symSize: 0xC8 }
+  - { offset: 0xB4623, size: 0x8, addend: 0x0, symName: '-[NTDevice isFamilyCoexist]', symObjAddr: 0x1B74, symBinAddr: 0x75A0, symSize: 0x14 }
+  - { offset: 0xB465B, size: 0x8, addend: 0x0, symName: '-[NTDevice isFamilyFindMyCoexist]', symObjAddr: 0x1B88, symBinAddr: 0x75B4, symSize: 0x10 }
+  - { offset: 0xB4693, size: 0x8, addend: 0x0, symName: '-[NTDevice isFamilyFindHubCoexist]', symObjAddr: 0x1B98, symBinAddr: 0x75C4, symSize: 0x10 }
+  - { offset: 0xB46CB, size: 0x8, addend: 0x0, symName: '-[NTDevice findMyAppURL]', symObjAddr: 0x1BA8, symBinAddr: 0x75D4, symSize: 0x1D8 }
+  - { offset: 0xB4736, size: 0x8, addend: 0x0, symName: '-[NTDevice findTimeOutCheck]', symObjAddr: 0x1D80, symBinAddr: 0x77AC, symSize: 0xC }
+  - { offset: 0xB4768, size: 0x8, addend: 0x0, symName: '-[NTDevice beep:withTimeOutDuration:]', symObjAddr: 0x1D8C, symBinAddr: 0x77B8, symSize: 0x110 }
+  - { offset: 0xB47FC, size: 0x8, addend: 0x0, symName: '-[NTDevice setHardwareAlarmEnabled:]', symObjAddr: 0x1E9C, symBinAddr: 0x78C8, symSize: 0xB4 }
+  - { offset: 0xB4878, size: 0x8, addend: 0x0, symName: '-[NTDevice setBeaconUUID:]', symObjAddr: 0x1F50, symBinAddr: 0x797C, symSize: 0x104 }
+  - { offset: 0xB48F3, size: 0x8, addend: 0x0, symName: '-[NTDevice setBeaconMajor:minor:]', symObjAddr: 0x2054, symBinAddr: 0x7A80, symSize: 0x29C }
+  - { offset: 0xB499E, size: 0x8, addend: 0x0, symName: '-[NTDevice setDevicePair:]', symObjAddr: 0x22F0, symBinAddr: 0x7D1C, symSize: 0xE8 }
+  - { offset: 0xB4A1A, size: 0x8, addend: 0x0, symName: '-[NTDevice switchToDFUMode]', symObjAddr: 0x23D8, symBinAddr: 0x7E04, symSize: 0x84 }
+  - { offset: 0xB4A73, size: 0x8, addend: 0x0, symName: '-[NTDevice readRSSI]', symObjAddr: 0x245C, symBinAddr: 0x7E88, symSize: 0x4C }
+  - { offset: 0xB4AA7, size: 0x8, addend: 0x0, symName: '-[NTDevice readBattery]', symObjAddr: 0x24A8, symBinAddr: 0x7ED4, symSize: 0xD0 }
+  - { offset: 0xB4B01, size: 0x8, addend: 0x0, symName: '-[NTDevice discoverServices]', symObjAddr: 0x2578, symBinAddr: 0x7FA4, symSize: 0x34 }
+  - { offset: 0xB4B69, size: 0x8, addend: 0x0, symName: '-[NTDevice didDiscovered:advData:]', symObjAddr: 0x25AC, symBinAddr: 0x7FD8, symSize: 0x218 }
+  - { offset: 0xB4C94, size: 0x8, addend: 0x0, symName: '-[NTDevice didConnected]', symObjAddr: 0x27C4, symBinAddr: 0x81F0, symSize: 0x28 }
+  - { offset: 0xB4CC8, size: 0x8, addend: 0x0, symName: '-[NTDevice didDisconnected]', symObjAddr: 0x27EC, symBinAddr: 0x8218, symSize: 0x6C }
+  - { offset: 0xB4CFC, size: 0x8, addend: 0x0, symName: '-[NTDevice failedToConnectWithError:]', symObjAddr: 0x2858, symBinAddr: 0x8284, symSize: 0x78 }
+  - { offset: 0xB4D41, size: 0x8, addend: 0x0, symName: '-[NTDevice isContainCharact:service:charact:]', symObjAddr: 0x28D0, symBinAddr: 0x82FC, symSize: 0x1E4 }
+  - { offset: 0xB4E3F, size: 0x8, addend: 0x0, symName: '-[NTDevice charactByService:charact:]', symObjAddr: 0x2AB4, symBinAddr: 0x84E0, symSize: 0x2B4 }
+  - { offset: 0xB4F03, size: 0x8, addend: 0x0, symName: '-[NTDevice writeToService:characteristic:value:]', symObjAddr: 0x2D68, symBinAddr: 0x8794, symSize: 0xAC }
+  - { offset: 0xB4F9F, size: 0x8, addend: 0x0, symName: '-[NTDevice readCharact:completion:]', symObjAddr: 0x2E14, symBinAddr: 0x8840, symSize: 0x23C }
+  - { offset: 0xB502A, size: 0x8, addend: 0x0, symName: '-[NTDevice notifyCharact:enable:completion:]', symObjAddr: 0x3050, symBinAddr: 0x8A7C, symSize: 0x248 }
+  - { offset: 0xB50C6, size: 0x8, addend: 0x0, symName: '-[NTDevice peripheral:didDiscoverServices:]', symObjAddr: 0x3298, symBinAddr: 0x8CC4, symSize: 0x180 }
+  - { offset: 0xB5142, size: 0x8, addend: 0x0, symName: '-[NTDevice peripheral:didDiscoverCharacteristicsForService:error:]', symObjAddr: 0x3418, symBinAddr: 0x8E44, symSize: 0xE0 }
+  - { offset: 0xB51B7, size: 0x8, addend: 0x0, symName: '-[NTDevice peripheral:didUpdateValueForCharacteristic:error:]', symObjAddr: 0x34F8, symBinAddr: 0x8F24, symSize: 0x41C }
+  - { offset: 0xB5343, size: 0x8, addend: 0x0, symName: '-[NTDevice peripheral:didReadRSSI:error:]', symObjAddr: 0x3914, symBinAddr: 0x9340, symSize: 0xE4 }
+  - { offset: 0xB53A2, size: 0x8, addend: 0x0, symName: '___41-[NTDevice peripheral:didReadRSSI:error:]_block_invoke', symObjAddr: 0x39F8, symBinAddr: 0x9424, symSize: 0x3C }
+  - { offset: 0xB53F5, size: 0x8, addend: 0x0, symName: '-[NTDevice nutDiscoveredCharacteristicsHandlers]', symObjAddr: 0x3A34, symBinAddr: 0x9460, symSize: 0x6D0 }
+  - { offset: 0xB54CD, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke', symObjAddr: 0x4104, symBinAddr: 0x9B30, symSize: 0x68 }
+  - { offset: 0xB5529, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x416C, symBinAddr: 0x9B98, symSize: 0xC }
+  - { offset: 0xB5552, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x4178, symBinAddr: 0x9BA4, symSize: 0x8 }
+  - { offset: 0xB5571, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke.81', symObjAddr: 0x4180, symBinAddr: 0x9BAC, symSize: 0xDC }
+  - { offset: 0xB55D1, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke_2', symObjAddr: 0x425C, symBinAddr: 0x9C88, symSize: 0xBC }
+  - { offset: 0xB5649, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke.83', symObjAddr: 0x4318, symBinAddr: 0x9D44, symSize: 0xDC }
+  - { offset: 0xB56A9, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke_2.84', symObjAddr: 0x43F4, symBinAddr: 0x9E20, symSize: 0xBC }
+  - { offset: 0xB5721, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke_3', symObjAddr: 0x44B0, symBinAddr: 0x9EDC, symSize: 0x4 }
+  - { offset: 0xB5764, size: 0x8, addend: 0x0, symName: '___48-[NTDevice nutDiscoveredCharacteristicsHandlers]_block_invoke_4', symObjAddr: 0x44B4, symBinAddr: 0x9EE0, symSize: 0xA0 }
+  - { offset: 0xB57C0, size: 0x8, addend: 0x0, symName: '-[NTDevice nutDidUpdateValueHandlers]', symObjAddr: 0x4554, symBinAddr: 0x9F80, symSize: 0x400 }
+  - { offset: 0xB5854, size: 0x8, addend: 0x0, symName: '___37-[NTDevice nutDidUpdateValueHandlers]_block_invoke', symObjAddr: 0x4954, symBinAddr: 0xA380, symSize: 0x298 }
+  - { offset: 0xB5922, size: 0x8, addend: 0x0, symName: '___37-[NTDevice nutDidUpdateValueHandlers]_block_invoke_2', symObjAddr: 0x4BEC, symBinAddr: 0xA618, symSize: 0x54 }
+  - { offset: 0xB5986, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48w, symObjAddr: 0x4C40, symBinAddr: 0xA66C, symSize: 0x38 }
+  - { offset: 0xB59AF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x4C78, symBinAddr: 0xA6A4, symSize: 0x30 }
+  - { offset: 0xB59CE, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x4CA8, symBinAddr: 0xA6D4, symSize: 0x30 }
+  - { offset: 0xB59F7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x4CD8, symBinAddr: 0xA704, symSize: 0x28 }
+  - { offset: 0xB5A16, size: 0x8, addend: 0x0, symName: '___37-[NTDevice nutDidUpdateValueHandlers]_block_invoke.90', symObjAddr: 0x4D00, symBinAddr: 0xA72C, symSize: 0x3A4 }
+  - { offset: 0xB5B09, size: 0x8, addend: 0x0, symName: '___37-[NTDevice nutDidUpdateValueHandlers]_block_invoke_2.109', symObjAddr: 0x50A4, symBinAddr: 0xAAD0, symSize: 0x94 }
+  - { offset: 0xB5B5C, size: 0x8, addend: 0x0, symName: '-[NTDevice findmyDiscoveredCharacteristicsHandlers]', symObjAddr: 0x5138, symBinAddr: 0xAB64, symSize: 0x238 }
+  - { offset: 0xB5BDF, size: 0x8, addend: 0x0, symName: '___51-[NTDevice findmyDiscoveredCharacteristicsHandlers]_block_invoke', symObjAddr: 0x5370, symBinAddr: 0xAD9C, symSize: 0x6C }
+  - { offset: 0xB5C3B, size: 0x8, addend: 0x0, symName: '-[NTDevice handleDeviceDiscoverService:error:]', symObjAddr: 0x53DC, symBinAddr: 0xAE08, symSize: 0x7B8 }
+  - { offset: 0xB5E31, size: 0x8, addend: 0x0, symName: '-[NTDevice handleDeviceAuth:]', symObjAddr: 0x5B94, symBinAddr: 0xB5C0, symSize: 0x5B0 }
+  - { offset: 0xB5F45, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke', symObjAddr: 0x6144, symBinAddr: 0xBB70, symSize: 0x210 }
+  - { offset: 0xB5FF0, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke_2', symObjAddr: 0x6354, symBinAddr: 0xBD80, symSize: 0x58 }
+  - { offset: 0xB6043, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke_3', symObjAddr: 0x63AC, symBinAddr: 0xBDD8, symSize: 0x58 }
+  - { offset: 0xB6096, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke_4', symObjAddr: 0x6404, symBinAddr: 0xBE30, symSize: 0x58 }
+  - { offset: 0xB60E9, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke.117', symObjAddr: 0x645C, symBinAddr: 0xBE88, symSize: 0x60 }
+  - { offset: 0xB6149, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke.119', symObjAddr: 0x64BC, symBinAddr: 0xBEE8, symSize: 0xD0 }
+  - { offset: 0xB61E3, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke.124', symObjAddr: 0x658C, symBinAddr: 0xBFB8, symSize: 0x1A4 }
+  - { offset: 0xB628E, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke_2.125', symObjAddr: 0x6730, symBinAddr: 0xC15C, symSize: 0x58 }
+  - { offset: 0xB62E1, size: 0x8, addend: 0x0, symName: '___29-[NTDevice handleDeviceAuth:]_block_invoke_3.126', symObjAddr: 0x6788, symBinAddr: 0xC1B4, symSize: 0x58 }
+  - { offset: 0xB6334, size: 0x8, addend: 0x0, symName: '-[NTDevice RSSI]', symObjAddr: 0x67E0, symBinAddr: 0xC20C, symSize: 0x8 }
+  - { offset: 0xB636B, size: 0x8, addend: 0x0, symName: '-[NTDevice setRSSI:]', symObjAddr: 0x67E8, symBinAddr: 0xC214, symSize: 0xC }
+  - { offset: 0xB63AC, size: 0x8, addend: 0x0, symName: '-[NTDevice delegate]', symObjAddr: 0x67F4, symBinAddr: 0xC220, symSize: 0x18 }
+  - { offset: 0xB63E3, size: 0x8, addend: 0x0, symName: '-[NTDevice setDelegate:]', symObjAddr: 0x680C, symBinAddr: 0xC238, symSize: 0xC }
+  - { offset: 0xB6424, size: 0x8, addend: 0x0, symName: '-[NTDevice advLocalName]', symObjAddr: 0x6818, symBinAddr: 0xC244, symSize: 0x8 }
+  - { offset: 0xB645B, size: 0x8, addend: 0x0, symName: '-[NTDevice setAdvLocalName:]', symObjAddr: 0x6820, symBinAddr: 0xC24C, symSize: 0xC }
+  - { offset: 0xB649C, size: 0x8, addend: 0x0, symName: '-[NTDevice firmwareVersion]', symObjAddr: 0x682C, symBinAddr: 0xC258, symSize: 0x8 }
+  - { offset: 0xB64D3, size: 0x8, addend: 0x0, symName: '-[NTDevice setFirmwareVersion:]', symObjAddr: 0x6834, symBinAddr: 0xC260, symSize: 0xC }
+  - { offset: 0xB6514, size: 0x8, addend: 0x0, symName: '-[NTDevice hardwareVersion]', symObjAddr: 0x6840, symBinAddr: 0xC26C, symSize: 0x8 }
+  - { offset: 0xB654B, size: 0x8, addend: 0x0, symName: '-[NTDevice setHardwareVersion:]', symObjAddr: 0x6848, symBinAddr: 0xC274, symSize: 0xC }
+  - { offset: 0xB658C, size: 0x8, addend: 0x0, symName: '-[NTDevice autoReconnect]', symObjAddr: 0x6854, symBinAddr: 0xC280, symSize: 0x8 }
+  - { offset: 0xB65C3, size: 0x8, addend: 0x0, symName: '-[NTDevice setAutoReconnect:]', symObjAddr: 0x685C, symBinAddr: 0xC288, symSize: 0x8 }
+  - { offset: 0xB65FE, size: 0x8, addend: 0x0, symName: '-[NTDevice state]', symObjAddr: 0x6864, symBinAddr: 0xC290, symSize: 0x8 }
+  - { offset: 0xB6635, size: 0x8, addend: 0x0, symName: '-[NTDevice setState:]', symObjAddr: 0x686C, symBinAddr: 0xC298, symSize: 0x8 }
+  - { offset: 0xB6672, size: 0x8, addend: 0x0, symName: '-[NTDevice battery]', symObjAddr: 0x6874, symBinAddr: 0xC2A0, symSize: 0x8 }
+  - { offset: 0xB66A9, size: 0x8, addend: 0x0, symName: '-[NTDevice setBattery:]', symObjAddr: 0x687C, symBinAddr: 0xC2A8, symSize: 0xC }
+  - { offset: 0xB66EA, size: 0x8, addend: 0x0, symName: '-[NTDevice deviceID]', symObjAddr: 0x6888, symBinAddr: 0xC2B4, symSize: 0x8 }
+  - { offset: 0xB6721, size: 0x8, addend: 0x0, symName: '-[NTDevice setDeviceID:]', symObjAddr: 0x6890, symBinAddr: 0xC2BC, symSize: 0xC }
+  - { offset: 0xB6762, size: 0x8, addend: 0x0, symName: '-[NTDevice pairStatus]', symObjAddr: 0x689C, symBinAddr: 0xC2C8, symSize: 0x8 }
+  - { offset: 0xB6799, size: 0x8, addend: 0x0, symName: '-[NTDevice setPairStatus:]', symObjAddr: 0x68A4, symBinAddr: 0xC2D0, symSize: 0xC }
+  - { offset: 0xB67DA, size: 0x8, addend: 0x0, symName: '-[NTDevice advSecondaryServiceUUID]', symObjAddr: 0x68B0, symBinAddr: 0xC2DC, symSize: 0x8 }
+  - { offset: 0xB6811, size: 0x8, addend: 0x0, symName: '-[NTDevice setAdvSecondaryServiceUUID:]', symObjAddr: 0x68B8, symBinAddr: 0xC2E4, symSize: 0xC }
+  - { offset: 0xB6852, size: 0x8, addend: 0x0, symName: '-[NTDevice coexistFMNAProductData]', symObjAddr: 0x68C4, symBinAddr: 0xC2F0, symSize: 0x8 }
+  - { offset: 0xB6889, size: 0x8, addend: 0x0, symName: '-[NTDevice setCoexistFMNAProductData:]', symObjAddr: 0x68CC, symBinAddr: 0xC2F8, symSize: 0xC }
+  - { offset: 0xB68CA, size: 0x8, addend: 0x0, symName: '-[NTDevice coexistFMDNModelId]', symObjAddr: 0x68D8, symBinAddr: 0xC304, symSize: 0x8 }
+  - { offset: 0xB6901, size: 0x8, addend: 0x0, symName: '-[NTDevice setCoexistFMDNModelId:]', symObjAddr: 0x68E0, symBinAddr: 0xC30C, symSize: 0xC }
+  - { offset: 0xB6942, size: 0x8, addend: 0x0, symName: '-[NTDevice coexistManufacturerName]', symObjAddr: 0x68EC, symBinAddr: 0xC318, symSize: 0x8 }
+  - { offset: 0xB6979, size: 0x8, addend: 0x0, symName: '-[NTDevice setCoexistManufacturerName:]', symObjAddr: 0x68F4, symBinAddr: 0xC320, symSize: 0xC }
+  - { offset: 0xB69BA, size: 0x8, addend: 0x0, symName: '-[NTDevice coexistModelName]', symObjAddr: 0x6900, symBinAddr: 0xC32C, symSize: 0x8 }
+  - { offset: 0xB69F1, size: 0x8, addend: 0x0, symName: '-[NTDevice setCoexistModelName:]', symObjAddr: 0x6908, symBinAddr: 0xC334, symSize: 0xC }
+  - { offset: 0xB6A32, size: 0x8, addend: 0x0, symName: '-[NTDevice coexistFMNASerialNumber]', symObjAddr: 0x6914, symBinAddr: 0xC340, symSize: 0x8 }
+  - { offset: 0xB6A69, size: 0x8, addend: 0x0, symName: '-[NTDevice setCoexistFMNASerialNumber:]', symObjAddr: 0x691C, symBinAddr: 0xC348, symSize: 0xC }
+  - { offset: 0xB6AAA, size: 0x8, addend: 0x0, symName: '-[NTDevice deviceAuthController]', symObjAddr: 0x6928, symBinAddr: 0xC354, symSize: 0x8 }
+  - { offset: 0xB6AE1, size: 0x8, addend: 0x0, symName: '-[NTDevice setDeviceAuthController:]', symObjAddr: 0x6930, symBinAddr: 0xC35C, symSize: 0xC }
+  - { offset: 0xB6B22, size: 0x8, addend: 0x0, symName: '-[NTDevice peripheral]', symObjAddr: 0x693C, symBinAddr: 0xC368, symSize: 0x8 }
+  - { offset: 0xB6B59, size: 0x8, addend: 0x0, symName: '-[NTDevice setPeripheral:]', symObjAddr: 0x6944, symBinAddr: 0xC370, symSize: 0xC }
+  - { offset: 0xB6B9A, size: 0x8, addend: 0x0, symName: '-[NTDevice UUIDString]', symObjAddr: 0x6950, symBinAddr: 0xC37C, symSize: 0x8 }
+  - { offset: 0xB6BD1, size: 0x8, addend: 0x0, symName: '-[NTDevice setUUIDString:]', symObjAddr: 0x6958, symBinAddr: 0xC384, symSize: 0xC }
+  - { offset: 0xB6C12, size: 0x8, addend: 0x0, symName: '-[NTDevice setNutDiscoveredCharacteristicsHandlers:]', symObjAddr: 0x6964, symBinAddr: 0xC390, symSize: 0xC }
+  - { offset: 0xB6C53, size: 0x8, addend: 0x0, symName: '-[NTDevice setFindmyDiscoveredCharacteristicsHandlers:]', symObjAddr: 0x6970, symBinAddr: 0xC39C, symSize: 0xC }
+  - { offset: 0xB6C94, size: 0x8, addend: 0x0, symName: '-[NTDevice setNutDidUpdateValueHandlers:]', symObjAddr: 0x697C, symBinAddr: 0xC3A8, symSize: 0xC }
+  - { offset: 0xB6CD5, size: 0x8, addend: 0x0, symName: '-[NTDevice setReadingBlocks:]', symObjAddr: 0x6988, symBinAddr: 0xC3B4, symSize: 0xC }
+  - { offset: 0xB6D16, size: 0x8, addend: 0x0, symName: '-[NTDevice setNotifyBlocks:]', symObjAddr: 0x6994, symBinAddr: 0xC3C0, symSize: 0xC }
+  - { offset: 0xB6D57, size: 0x8, addend: 0x0, symName: '-[NTDevice .cxx_destruct]', symObjAddr: 0x69A0, symBinAddr: 0xC3CC, symSize: 0x11C }
+  - { offset: 0xB7B05, size: 0x8, addend: 0x0, symName: '-[NTTLVItem initWithTag:length:value:]', symObjAddr: 0x0, symBinAddr: 0xC4E8, symSize: 0xB4 }
+  - { offset: 0xB7BB8, size: 0x8, addend: 0x0, symName: '-[NTTLVItem initWithTag:length:value:]', symObjAddr: 0x0, symBinAddr: 0xC4E8, symSize: 0xB4 }
+  - { offset: 0xB7C1F, size: 0x8, addend: 0x0, symName: '-[NTTLVItem description]', symObjAddr: 0xB4, symBinAddr: 0xC59C, symSize: 0x8C }
+  - { offset: 0xB7C56, size: 0x8, addend: 0x0, symName: '-[NTTLVItem tag]', symObjAddr: 0x140, symBinAddr: 0xC628, symSize: 0x8 }
+  - { offset: 0xB7C8D, size: 0x8, addend: 0x0, symName: '-[NTTLVItem setTag:]', symObjAddr: 0x148, symBinAddr: 0xC630, symSize: 0x8 }
+  - { offset: 0xB7CCA, size: 0x8, addend: 0x0, symName: '-[NTTLVItem length]', symObjAddr: 0x150, symBinAddr: 0xC638, symSize: 0x8 }
+  - { offset: 0xB7D01, size: 0x8, addend: 0x0, symName: '-[NTTLVItem setLength:]', symObjAddr: 0x158, symBinAddr: 0xC640, symSize: 0x8 }
+  - { offset: 0xB7D3E, size: 0x8, addend: 0x0, symName: '-[NTTLVItem value]', symObjAddr: 0x160, symBinAddr: 0xC648, symSize: 0x8 }
+  - { offset: 0xB7D75, size: 0x8, addend: 0x0, symName: '-[NTTLVItem setValue:]', symObjAddr: 0x168, symBinAddr: 0xC650, symSize: 0xC }
+  - { offset: 0xB7DB6, size: 0x8, addend: 0x0, symName: '-[NTTLVItem hexValue]', symObjAddr: 0x174, symBinAddr: 0xC65C, symSize: 0x8 }
+  - { offset: 0xB7DED, size: 0x8, addend: 0x0, symName: '-[NTTLVItem setHexValue:]', symObjAddr: 0x17C, symBinAddr: 0xC664, symSize: 0xC }
+  - { offset: 0xB7E2E, size: 0x8, addend: 0x0, symName: '-[NTTLVItem .cxx_destruct]', symObjAddr: 0x188, symBinAddr: 0xC670, symSize: 0x30 }
+  - { offset: 0xB7E61, size: 0x8, addend: 0x0, symName: '+[NTTLVParserUtils parseHexString:]', symObjAddr: 0x1B8, symBinAddr: 0xC6A0, symSize: 0x240 }
+  - { offset: 0xB7F42, size: 0x8, addend: 0x0, symName: '+[NTTLVParserUtils parseByteArray:]', symObjAddr: 0x3F8, symBinAddr: 0xC8E0, symSize: 0x240 }
+  - { offset: 0xB8085, size: 0x8, addend: 0x0, symName: '+[NTTLVParserUtils formatTlvItems:]', symObjAddr: 0x638, symBinAddr: 0xCB20, symSize: 0x120 }
+  - { offset: 0xB8116, size: 0x8, addend: 0x0, symName: '+[NTTLVParserUtils getItemByTag:tag:]', symObjAddr: 0x758, symBinAddr: 0xCC40, symSize: 0x13C }
+  - { offset: 0xB8180, size: 0x8, addend: 0x0, symName: '+[NTTLVParserUtils getItemsByTag:tag:]', symObjAddr: 0x894, symBinAddr: 0xCD7C, symSize: 0x14C }
+  - { offset: 0xB82B9, size: 0x8, addend: 0x0, symName: '+[NTDeviceManager sharedManager]', symObjAddr: 0x0, symBinAddr: 0xCEC8, symSize: 0x44 }
+  - { offset: 0xB82D3, size: 0x8, addend: 0x0, symName: _BTServiceKey, symObjAddr: 0x1FC0, symBinAddr: 0x2C2A0, symSize: 0x0 }
+  - { offset: 0xB82F3, size: 0x8, addend: 0x0, symName: _BTBASKey, symObjAddr: 0x1FC8, symBinAddr: 0x2C2A8, symSize: 0x0 }
+  - { offset: 0xB8309, size: 0x8, addend: 0x0, symName: _BTBASBatteryLevelKey, symObjAddr: 0x1FD0, symBinAddr: 0x2C2B0, symSize: 0x0 }
+  - { offset: 0xB831F, size: 0x8, addend: 0x0, symName: _BTDISKey, symObjAddr: 0x1FD8, symBinAddr: 0x2C2B8, symSize: 0x0 }
+  - { offset: 0xB8335, size: 0x8, addend: 0x0, symName: _BTDISSystemIdKey, symObjAddr: 0x1FE0, symBinAddr: 0x2C2C0, symSize: 0x0 }
+  - { offset: 0xB834B, size: 0x8, addend: 0x0, symName: _BTDISFirmwareRevisionKey, symObjAddr: 0x1FE8, symBinAddr: 0x2C2C8, symSize: 0x0 }
+  - { offset: 0xB8361, size: 0x8, addend: 0x0, symName: _BTDISHardwareRevisionKey, symObjAddr: 0x1FF0, symBinAddr: 0x2C2D0, symSize: 0x0 }
+  - { offset: 0xB8377, size: 0x8, addend: 0x0, symName: _BTDISSoftwareRevisionKey, symObjAddr: 0x1FF8, symBinAddr: 0x2C2D8, symSize: 0x0 }
+  - { offset: 0xB838D, size: 0x8, addend: 0x0, symName: _BTDISManufacturerNameKey, symObjAddr: 0x2000, symBinAddr: 0x2C2E0, symSize: 0x0 }
+  - { offset: 0xB83A3, size: 0x8, addend: 0x0, symName: _BTIASKey, symObjAddr: 0x2008, symBinAddr: 0x2C2E8, symSize: 0x0 }
+  - { offset: 0xB83B9, size: 0x8, addend: 0x0, symName: _BTIASAlertLevelKey, symObjAddr: 0x2010, symBinAddr: 0x2C2F0, symSize: 0x0 }
+  - { offset: 0xB83CF, size: 0x8, addend: 0x0, symName: _NTAuthServiceKey, symObjAddr: 0x2018, symBinAddr: 0x2C2F8, symSize: 0x0 }
+  - { offset: 0xB83E5, size: 0x8, addend: 0x0, symName: _NTAuthSleepKey, symObjAddr: 0x2020, symBinAddr: 0x2C300, symSize: 0x0 }
+  - { offset: 0xB83FB, size: 0x8, addend: 0x0, symName: _NTAuthWriteKey, symObjAddr: 0x2028, symBinAddr: 0x2C308, symSize: 0x0 }
+  - { offset: 0xB8411, size: 0x8, addend: 0x0, symName: _NTAuthReadKey, symObjAddr: 0x2030, symBinAddr: 0x2C310, symSize: 0x0 }
+  - { offset: 0xB8427, size: 0x8, addend: 0x0, symName: _NTAuthVersionKey, symObjAddr: 0x2038, symBinAddr: 0x2C318, symSize: 0x0 }
+  - { offset: 0xB843D, size: 0x8, addend: 0x0, symName: _NTFindMeServiceKey, symObjAddr: 0x2040, symBinAddr: 0x2C320, symSize: 0x0 }
+  - { offset: 0xB8453, size: 0x8, addend: 0x0, symName: _NTFindMeCharacterKey, symObjAddr: 0x2048, symBinAddr: 0x2C328, symSize: 0x0 }
+  - { offset: 0xB8469, size: 0x8, addend: 0x0, symName: _NTPrivateServiceKey, symObjAddr: 0x2050, symBinAddr: 0x2C330, symSize: 0x0 }
+  - { offset: 0xB847F, size: 0x8, addend: 0x0, symName: _NTPrivateCharacterKey, symObjAddr: 0x2058, symBinAddr: 0x2C338, symSize: 0x0 }
+  - { offset: 0xB8495, size: 0x8, addend: 0x0, symName: _NTCoexistServiceKey, symObjAddr: 0x2060, symBinAddr: 0x2C340, symSize: 0x0 }
+  - { offset: 0xB84AB, size: 0x8, addend: 0x0, symName: _NTCoexistCharacterKey, symObjAddr: 0x2068, symBinAddr: 0x2C348, symSize: 0x0 }
+  - { offset: 0xB84C1, size: 0x8, addend: 0x0, symName: _NTFindMyNetworkServiceKey, symObjAddr: 0x2070, symBinAddr: 0x2C350, symSize: 0x0 }
+  - { offset: 0xB84D7, size: 0x8, addend: 0x0, symName: _NTFindMyNetworkCharacterKey, symObjAddr: 0x2078, symBinAddr: 0x2C358, symSize: 0x0 }
+  - { offset: 0xB84ED, size: 0x8, addend: 0x0, symName: _NTFindHubNetworkServiceKey, symObjAddr: 0x2080, symBinAddr: 0x2C360, symSize: 0x0 }
+  - { offset: 0xB8503, size: 0x8, addend: 0x0, symName: _NTFindHubNetworkCharacterKey, symObjAddr: 0x2088, symBinAddr: 0x2C368, symSize: 0x0 }
+  - { offset: 0xB8519, size: 0x8, addend: 0x0, symName: _NutServiceUUID, symObjAddr: 0x2090, symBinAddr: 0x2C370, symSize: 0x0 }
+  - { offset: 0xB852F, size: 0x8, addend: 0x0, symName: _DFUServiceUUID, symObjAddr: 0x2098, symBinAddr: 0x2C378, symSize: 0x0 }
+  - { offset: 0xB8545, size: 0x8, addend: 0x0, symName: _NutaleServiceUUID, symObjAddr: 0x20A0, symBinAddr: 0x2C380, symSize: 0x0 }
+  - { offset: 0xB855B, size: 0x8, addend: 0x0, symName: _FMNAServiceUUID, symObjAddr: 0x20A8, symBinAddr: 0x2C388, symSize: 0x0 }
+  - { offset: 0xB8571, size: 0x8, addend: 0x0, symName: _FMDNServiceUUID, symObjAddr: 0x20B0, symBinAddr: 0x2C390, symSize: 0x0 }
+  - { offset: 0xB8587, size: 0x8, addend: 0x0, symName: _NTCentralManagerScanOptionAllowDuplicatesKey, symObjAddr: 0x20B8, symBinAddr: 0x2C398, symSize: 0x0 }
+  - { offset: 0xB8591, size: 0x8, addend: 0x0, symName: '+[NTDeviceManager sharedManager]', symObjAddr: 0x0, symBinAddr: 0xCEC8, symSize: 0x44 }
+  - { offset: 0xB85BB, size: 0x8, addend: 0x0, symName: _sharedManager.deviceManager, symObjAddr: 0x84C0, symBinAddr: 0x34AD8, symSize: 0x0 }
+  - { offset: 0xB871F, size: 0x8, addend: 0x0, symName: '+[NTDeviceManager nutSearchingServices]', symObjAddr: 0x44, symBinAddr: 0xCF0C, symSize: 0xC8 }
+  - { offset: 0xB8782, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager init]', symObjAddr: 0x10C, symBinAddr: 0xCFD4, symSize: 0x7C }
+  - { offset: 0xB87B9, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager setOpenID:]', symObjAddr: 0x188, symBinAddr: 0xD050, symSize: 0x30 }
+  - { offset: 0xB87FC, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager isOpenIDValid]', symObjAddr: 0x1B8, symBinAddr: 0xD080, symSize: 0xB8 }
+  - { offset: 0xB8843, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager initCentralManager]', symObjAddr: 0x270, symBinAddr: 0xD138, symSize: 0x110 }
+  - { offset: 0xB88B9, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager destroyCentralManager]', symObjAddr: 0x380, symBinAddr: 0xD248, symSize: 0x40 }
+  - { offset: 0xB88EC, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager startScanWithOptions:]', symObjAddr: 0x3C0, symBinAddr: 0xD288, symSize: 0x158 }
+  - { offset: 0xB895D, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager stopScan]', symObjAddr: 0x518, symBinAddr: 0xD3E0, symSize: 0x58 }
+  - { offset: 0xB899E, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager retrieveDevicesWithIdentifiers:]', symObjAddr: 0x570, symBinAddr: 0xD438, symSize: 0x290 }
+  - { offset: 0xB8A52, size: 0x8, addend: 0x0, symName: '___50-[NTDeviceManager retrieveDevicesWithIdentifiers:]_block_invoke', symObjAddr: 0x800, symBinAddr: 0xD6C8, symSize: 0x44 }
+  - { offset: 0xB8AE8, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager deviceForPeripheral:]', symObjAddr: 0x894, symBinAddr: 0xD70C, symSize: 0x13C }
+  - { offset: 0xB8B3F, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager nutServices]', symObjAddr: 0x9D0, symBinAddr: 0xD848, symSize: 0x594 }
+  - { offset: 0xB8B76, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager fmCoexistServices]', symObjAddr: 0xF64, symBinAddr: 0xDDDC, symSize: 0x25C }
+  - { offset: 0xB8BA9, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManager:didDiscoverPeripheral:advertisementData:RSSI:]', symObjAddr: 0x11C0, symBinAddr: 0xE038, symSize: 0xDC }
+  - { offset: 0xB8C29, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManagerDidUpdateState:]', symObjAddr: 0x129C, symBinAddr: 0xE114, symSize: 0x74 }
+  - { offset: 0xB8C6E, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManager:didConnectPeripheral:]', symObjAddr: 0x1310, symBinAddr: 0xE188, symSize: 0x5C }
+  - { offset: 0xB8CD1, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManager:didDisconnectPeripheral:error:]', symObjAddr: 0x136C, symBinAddr: 0xE1E4, symSize: 0x5C }
+  - { offset: 0xB8D41, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManager:willRestoreState:]', symObjAddr: 0x13C8, symBinAddr: 0xE240, symSize: 0x4 }
+  - { offset: 0xB8D8D, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManager:didFailToConnectPeripheral:error:]', symObjAddr: 0x13CC, symBinAddr: 0xE244, symSize: 0x80 }
+  - { offset: 0xB8E01, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager openID]', symObjAddr: 0x144C, symBinAddr: 0xE2C4, symSize: 0x8 }
+  - { offset: 0xB8E38, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager delegate]', symObjAddr: 0x1454, symBinAddr: 0xE2CC, symSize: 0x18 }
+  - { offset: 0xB8E6F, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager setDelegate:]', symObjAddr: 0x146C, symBinAddr: 0xE2E4, symSize: 0xC }
+  - { offset: 0xB8EB0, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager centralManager]', symObjAddr: 0x1478, symBinAddr: 0xE2F0, symSize: 0x8 }
+  - { offset: 0xB8EE7, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager setCentralManager:]', symObjAddr: 0x1480, symBinAddr: 0xE2F8, symSize: 0xC }
+  - { offset: 0xB8F28, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager devicesByUUID]', symObjAddr: 0x148C, symBinAddr: 0xE304, symSize: 0x8 }
+  - { offset: 0xB8F5F, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager setDevicesByUUID:]', symObjAddr: 0x1494, symBinAddr: 0xE30C, symSize: 0xC }
+  - { offset: 0xB8FA0, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager services]', symObjAddr: 0x14A0, symBinAddr: 0xE318, symSize: 0x8 }
+  - { offset: 0xB8FD7, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager setServices:]', symObjAddr: 0x14A8, symBinAddr: 0xE320, symSize: 0xC }
+  - { offset: 0xB9018, size: 0x8, addend: 0x0, symName: '-[NTDeviceManager .cxx_destruct]', symObjAddr: 0x14B4, symBinAddr: 0xE32C, symSize: 0x50 }
+  - { offset: 0xB9338, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl chipType]', symObjAddr: 0x0, symBinAddr: 0xE37C, symSize: 0x8 }
+  - { offset: 0xB9ACB, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl chipType]', symObjAddr: 0x0, symBinAddr: 0xE37C, symSize: 0x8 }
+  - { offset: 0xB9AFE, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl canHandleDevice:]', symObjAddr: 0x8, symBinAddr: 0xE384, symSize: 0x174 }
+  - { offset: 0xB9BA7, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl canHandlePeripheral:advertisementData:]', symObjAddr: 0x17C, symBinAddr: 0xE4F8, symSize: 0x1A8 }
+  - { offset: 0xB9C25, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl defaultServiceUUID]', symObjAddr: 0x324, symBinAddr: 0xE6A0, symSize: 0x10 }
+  - { offset: 0xB9C58, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl defaultCharacteristicUUID]', symObjAddr: 0x334, symBinAddr: 0xE6B0, symSize: 0x10 }
+  - { offset: 0xB9C8B, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl supportedFirmwareExtensions]', symObjAddr: 0x344, symBinAddr: 0xE6C0, symSize: 0xC }
+  - { offset: 0xB9CBE, size: 0x8, addend: 0x0, symName: '+[NTOtaTelinkImpl hasTelinkOtaService:]', symObjAddr: 0x350, symBinAddr: 0xE6CC, symSize: 0x204 }
+  - { offset: 0xB9D18, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl initWithDevice:]', symObjAddr: 0x554, symBinAddr: 0xE8D0, symSize: 0x8C }
+  - { offset: 0xB9D5F, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl telinkSettings]', symObjAddr: 0x5E0, symBinAddr: 0xE95C, symSize: 0x4 }
+  - { offset: 0xB9D94, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setTelinkSettings:]', symObjAddr: 0x5E4, symBinAddr: 0xE960, symSize: 0x54 }
+  - { offset: 0xB9DD7, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]', symObjAddr: 0x638, symBinAddr: 0xE9B4, symSize: 0xA9C }
+  - { offset: 0xBA03D, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke', symObjAddr: 0x10D4, symBinAddr: 0xF450, symSize: 0x40 }
+  - { offset: 0xBA094, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke.45', symObjAddr: 0x1164, symBinAddr: 0xF490, symSize: 0x40 }
+  - { offset: 0xBA0EB, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke_2', symObjAddr: 0x11A4, symBinAddr: 0xF4D0, symSize: 0x40 }
+  - { offset: 0xBA142, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke_3', symObjAddr: 0x11E4, symBinAddr: 0xF510, symSize: 0x40 }
+  - { offset: 0xBA199, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke_4', symObjAddr: 0x1224, symBinAddr: 0xF550, symSize: 0x40 }
+  - { offset: 0xBA1F0, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke_5', symObjAddr: 0x1264, symBinAddr: 0xF590, symSize: 0x40 }
+  - { offset: 0xBA247, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke_6', symObjAddr: 0x12A4, symBinAddr: 0xF5D0, symSize: 0x3C }
+  - { offset: 0xBA296, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke.59', symObjAddr: 0x12F4, symBinAddr: 0xF60C, symSize: 0x6C }
+  - { offset: 0xBA2F6, size: 0x8, addend: 0x0, symName: '___58-[NTOtaTelinkImpl startOTAWithFirmwareData:configuration:]_block_invoke.63', symObjAddr: 0x1360, symBinAddr: 0xF678, symSize: 0x40 }
+  - { offset: 0xBA350, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl cancelOTA]', symObjAddr: 0x13A0, symBinAddr: 0xF6B8, symSize: 0x154 }
+  - { offset: 0xBA3B9, size: 0x8, addend: 0x0, symName: '___28-[NTOtaTelinkImpl cancelOTA]_block_invoke', symObjAddr: 0x14F4, symBinAddr: 0xF80C, symSize: 0x60 }
+  - { offset: 0xBA418, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setChipSpecificConfiguration:]', symObjAddr: 0x1554, symBinAddr: 0xF86C, symSize: 0x674 }
+  - { offset: 0xBA561, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl getFirmwareVersionWithCompletion:]', symObjAddr: 0x1BC8, symBinAddr: 0xFEE0, symSize: 0x74 }
+  - { offset: 0xBA5E3, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl configureTelinkBluetoothManagerWithPeripheral:]', symObjAddr: 0x1C3C, symBinAddr: 0xFF54, symSize: 0xE8 }
+  - { offset: 0xBA647, size: 0x8, addend: 0x0, symName: '___65-[NTOtaTelinkImpl configureTelinkBluetoothManagerWithPeripheral:]_block_invoke', symObjAddr: 0x1D24, symBinAddr: 0x1003C, symSize: 0x1C }
+  - { offset: 0xBA6B2, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl updateState:]', symObjAddr: 0x1D40, symBinAddr: 0x10058, symSize: 0x114 }
+  - { offset: 0xBA72C, size: 0x8, addend: 0x0, symName: '___31-[NTOtaTelinkImpl updateState:]_block_invoke', symObjAddr: 0x1E54, symBinAddr: 0x1016C, symSize: 0x60 }
+  - { offset: 0xBA78B, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl handleTelinkProgress:]', symObjAddr: 0x1EC4, symBinAddr: 0x101CC, symSize: 0x25C }
+  - { offset: 0xBA85B, size: 0x8, addend: 0x0, symName: '___40-[NTOtaTelinkImpl handleTelinkProgress:]_block_invoke', symObjAddr: 0x2120, symBinAddr: 0x10428, symSize: 0x80 }
+  - { offset: 0xBA8B8, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl handleTelinkResult:error:]', symObjAddr: 0x21A0, symBinAddr: 0x104A8, symSize: 0x290 }
+  - { offset: 0xBA989, size: 0x8, addend: 0x0, symName: '___44-[NTOtaTelinkImpl handleTelinkResult:error:]_block_invoke', symObjAddr: 0x2430, symBinAddr: 0x10738, symSize: 0x60 }
+  - { offset: 0xBA9E8, size: 0x8, addend: 0x0, symName: '___44-[NTOtaTelinkImpl handleTelinkResult:error:]_block_invoke_2', symObjAddr: 0x2490, symBinAddr: 0x10798, symSize: 0x80 }
+  - { offset: 0xBAA45, size: 0x8, addend: 0x0, symName: '___44-[NTOtaTelinkImpl handleTelinkResult:error:]_block_invoke_3', symObjAddr: 0x2510, symBinAddr: 0x10818, symSize: 0x54 }
+  - { offset: 0xBAA9A, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl convertTelinkError:]', symObjAddr: 0x2564, symBinAddr: 0x1086C, symSize: 0x194 }
+  - { offset: 0xBAB01, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl device]', symObjAddr: 0x26F8, symBinAddr: 0x10A00, symSize: 0x18 }
+  - { offset: 0xBAB38, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setDevice:]', symObjAddr: 0x2710, symBinAddr: 0x10A18, symSize: 0xC }
+  - { offset: 0xBAB79, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl state]', symObjAddr: 0x271C, symBinAddr: 0x10A24, symSize: 0x8 }
+  - { offset: 0xBABB0, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setState:]', symObjAddr: 0x2724, symBinAddr: 0x10A2C, symSize: 0x8 }
+  - { offset: 0xBABED, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl progress]', symObjAddr: 0x272C, symBinAddr: 0x10A34, symSize: 0x8 }
+  - { offset: 0xBAC24, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setProgress:]', symObjAddr: 0x2734, symBinAddr: 0x10A3C, symSize: 0xC }
+  - { offset: 0xBAC65, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl configuration]', symObjAddr: 0x2740, symBinAddr: 0x10A48, symSize: 0x8 }
+  - { offset: 0xBAC9C, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setConfiguration:]', symObjAddr: 0x2748, symBinAddr: 0x10A50, symSize: 0xC }
+  - { offset: 0xBACDD, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl internalTelinkSettings]', symObjAddr: 0x2754, symBinAddr: 0x10A5C, symSize: 0x8 }
+  - { offset: 0xBAD14, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setInternalTelinkSettings:]', symObjAddr: 0x275C, symBinAddr: 0x10A64, symSize: 0xC }
+  - { offset: 0xBAD55, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl otaData]', symObjAddr: 0x2768, symBinAddr: 0x10A70, symSize: 0x8 }
+  - { offset: 0xBAD8C, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setOtaData:]', symObjAddr: 0x2770, symBinAddr: 0x10A78, symSize: 0xC }
+  - { offset: 0xBADCD, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl startDate]', symObjAddr: 0x277C, symBinAddr: 0x10A84, symSize: 0x8 }
+  - { offset: 0xBAE04, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setStartDate:]', symObjAddr: 0x2784, symBinAddr: 0x10A8C, symSize: 0xC }
+  - { offset: 0xBAE45, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl lastBytesSent]', symObjAddr: 0x2790, symBinAddr: 0x10A98, symSize: 0x8 }
+  - { offset: 0xBAE7C, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl setLastBytesSent:]', symObjAddr: 0x2798, symBinAddr: 0x10AA0, symSize: 0x8 }
+  - { offset: 0xBAEB9, size: 0x8, addend: 0x0, symName: '-[NTOtaTelinkImpl .cxx_destruct]', symObjAddr: 0x27A0, symBinAddr: 0x10AA8, symSize: 0x5C }
+  - { offset: 0xBB78E, size: 0x8, addend: 0x0, symName: '+[FileDataSource share]', symObjAddr: 0x0, symBinAddr: 0x10B04, symSize: 0x30 }
+  - { offset: 0xBB79C, size: 0x8, addend: 0x0, symName: '+[FileDataSource share]', symObjAddr: 0x0, symBinAddr: 0x10B04, symSize: 0x30 }
+  - { offset: 0xBB7C6, size: 0x8, addend: 0x0, symName: _share.share, symObjAddr: 0x3BA0, symBinAddr: 0x34AE0, symSize: 0x0 }
+  - { offset: 0xBB7DC, size: 0x8, addend: 0x0, symName: _share.tempOnce, symObjAddr: 0x3BA8, symBinAddr: 0x34AE8, symSize: 0x0 }
+  - { offset: 0xBB89F, size: 0x8, addend: 0x0, symName: '+[FileDataSource share].cold.1', symObjAddr: 0x720, symBinAddr: 0x1CDA0, symSize: 0x14 }
+  - { offset: 0xBB8BB, size: 0x8, addend: 0x0, symName: '+[FileDataSource share].cold.1', symObjAddr: 0x720, symBinAddr: 0x1CDA0, symSize: 0x14 }
+  - { offset: 0xBB8CD, size: 0x8, addend: 0x0, symName: '___23+[FileDataSource share]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x10B34, symSize: 0x3C }
+  - { offset: 0xBB8F4, size: 0x8, addend: 0x0, symName: '-[FileDataSource initData]', symObjAddr: 0x6C, symBinAddr: 0x10B70, symSize: 0x3C }
+  - { offset: 0xBB927, size: 0x8, addend: 0x0, symName: '-[FileDataSource getAllBinFilePath]', symObjAddr: 0xA8, symBinAddr: 0x10BAC, symSize: 0x290 }
+  - { offset: 0xBBA36, size: 0x8, addend: 0x0, symName: '-[FileDataSource getDataWithLastPathComponent:]', symObjAddr: 0x338, symBinAddr: 0x10E3C, symSize: 0x1D8 }
+  - { offset: 0xBBACC, size: 0x8, addend: 0x0, symName: '-[FileDataSource getPidWithOTAData:]', symObjAddr: 0x510, symBinAddr: 0x11014, symSize: 0x5C }
+  - { offset: 0xBBB2F, size: 0x8, addend: 0x0, symName: '-[FileDataSource getVidWithOTAData:]', symObjAddr: 0x56C, symBinAddr: 0x11070, symSize: 0x5C }
+  - { offset: 0xBBB92, size: 0x8, addend: 0x0, symName: '-[FileDataSource getPublicKeyDataWithSecurityBootBinData:]', symObjAddr: 0x5C8, symBinAddr: 0x110CC, symSize: 0x9C }
+  - { offset: 0xBBC0C, size: 0x8, addend: 0x0, symName: '-[FileDataSource getSignatureDataWithSecurityBootBinData:]', symObjAddr: 0x664, symBinAddr: 0x11168, symSize: 0x9C }
+  - { offset: 0xBBC86, size: 0x8, addend: 0x0, symName: '-[FileDataSource filePaths]', symObjAddr: 0x700, symBinAddr: 0x11204, symSize: 0x8 }
+  - { offset: 0xBBCBD, size: 0x8, addend: 0x0, symName: '-[FileDataSource setFilePaths:]', symObjAddr: 0x708, symBinAddr: 0x1120C, symSize: 0xC }
+  - { offset: 0xBBCFE, size: 0x8, addend: 0x0, symName: '-[FileDataSource .cxx_destruct]', symObjAddr: 0x714, symBinAddr: 0x11218, symSize: 0xC }
+  - { offset: 0xBBE30, size: 0x8, addend: 0x0, symName: '+[TelinkBluetoothManager shareCentralManager]', symObjAddr: 0x0, symBinAddr: 0x11224, symSize: 0x30 }
+  - { offset: 0xBBE3E, size: 0x8, addend: 0x0, symName: '+[TelinkBluetoothManager shareCentralManager]', symObjAddr: 0x0, symBinAddr: 0x11224, symSize: 0x30 }
+  - { offset: 0xBBE68, size: 0x8, addend: 0x0, symName: _shareCentralManager._centralManager, symObjAddr: 0x12500, symBinAddr: 0x34AF0, symSize: 0x0 }
+  - { offset: 0xBBE7E, size: 0x8, addend: 0x0, symName: _shareCentralManager.token, symObjAddr: 0x12508, symBinAddr: 0x34AF8, symSize: 0x0 }
+  - { offset: 0xBC32C, size: 0x8, addend: 0x0, symName: '+[TelinkBluetoothManager shareCentralManager].cold.1', symObjAddr: 0x2E28, symBinAddr: 0x1CDB4, symSize: 0x14 }
+  - { offset: 0xBC348, size: 0x8, addend: 0x0, symName: '+[TelinkBluetoothManager shareCentralManager].cold.1', symObjAddr: 0x2E28, symBinAddr: 0x1CDB4, symSize: 0x14 }
+  - { offset: 0xBC35A, size: 0x8, addend: 0x0, symName: '___45+[TelinkBluetoothManager shareCentralManager]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x11254, symSize: 0x2C }
+  - { offset: 0xBC381, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager init]', symObjAddr: 0x5C, symBinAddr: 0x11280, symSize: 0x74 }
+  - { offset: 0xBC3B8, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectPeripheralTimeout]', symObjAddr: 0xD0, symBinAddr: 0x112F4, symSize: 0x19C }
+  - { offset: 0xBC455, size: 0x8, addend: 0x0, symName: '___50-[TelinkBluetoothManager connectPeripheralTimeout]_block_invoke', symObjAddr: 0x26C, symBinAddr: 0x11490, symSize: 0x20 }
+  - { offset: 0xBC494, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectPeripheralFail]', symObjAddr: 0x29C, symBinAddr: 0x114B0, symSize: 0x110 }
+  - { offset: 0xBC51E, size: 0x8, addend: 0x0, symName: '___47-[TelinkBluetoothManager connectPeripheralFail]_block_invoke', symObjAddr: 0x3AC, symBinAddr: 0x115C0, symSize: 0x20 }
+  - { offset: 0xBC55D, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectPeripheralFinish]', symObjAddr: 0x3CC, symBinAddr: 0x115E0, symSize: 0xE8 }
+  - { offset: 0xBC5C7, size: 0x8, addend: 0x0, symName: '___49-[TelinkBluetoothManager connectPeripheralFinish]_block_invoke', symObjAddr: 0x4B4, symBinAddr: 0x116C8, symSize: 0x20 }
+  - { offset: 0xBC606, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager cancelConnectPeripheralTimeout]', symObjAddr: 0x4D4, symBinAddr: 0x116E8, symSize: 0x130 }
+  - { offset: 0xBC690, size: 0x8, addend: 0x0, symName: '___56-[TelinkBluetoothManager cancelConnectPeripheralTimeout]_block_invoke', symObjAddr: 0x604, symBinAddr: 0x11818, symSize: 0x20 }
+  - { offset: 0xBC6CF, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager cancelConnectPeripheralFinish]', symObjAddr: 0x624, symBinAddr: 0x11838, symSize: 0x100 }
+  - { offset: 0xBC739, size: 0x8, addend: 0x0, symName: '___55-[TelinkBluetoothManager cancelConnectPeripheralFinish]_block_invoke', symObjAddr: 0x724, symBinAddr: 0x11938, symSize: 0x20 }
+  - { offset: 0xBC778, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager discoverServicesOfPeripheralTimeout]', symObjAddr: 0x744, symBinAddr: 0x11958, symSize: 0x110 }
+  - { offset: 0xBC802, size: 0x8, addend: 0x0, symName: '___61-[TelinkBluetoothManager discoverServicesOfPeripheralTimeout]_block_invoke', symObjAddr: 0x854, symBinAddr: 0x11A68, symSize: 0x20 }
+  - { offset: 0xBC841, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager discoverServicesFinish]', symObjAddr: 0x874, symBinAddr: 0x11A88, symSize: 0xE0 }
+  - { offset: 0xBC8AB, size: 0x8, addend: 0x0, symName: '___48-[TelinkBluetoothManager discoverServicesFinish]_block_invoke', symObjAddr: 0x954, symBinAddr: 0x11B68, symSize: 0x20 }
+  - { offset: 0xBC8EA, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager openNotifyOfPeripheralTimeout]', symObjAddr: 0x974, symBinAddr: 0x11B88, symSize: 0x124 }
+  - { offset: 0xBC97B, size: 0x8, addend: 0x0, symName: '___55-[TelinkBluetoothManager openNotifyOfPeripheralTimeout]_block_invoke', symObjAddr: 0xA98, symBinAddr: 0x11CAC, symSize: 0x20 }
+  - { offset: 0xBC9BA, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager openNotifyOfPeripheralFinish]', symObjAddr: 0xAB8, symBinAddr: 0x11CCC, symSize: 0xF4 }
+  - { offset: 0xBCA2B, size: 0x8, addend: 0x0, symName: '___54-[TelinkBluetoothManager openNotifyOfPeripheralFinish]_block_invoke', symObjAddr: 0xBAC, symBinAddr: 0x11DC0, symSize: 0x20 }
+  - { offset: 0xBCA6A, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager centralManagerDidUpdateState:]', symObjAddr: 0xBCC, symBinAddr: 0x11DE0, symSize: 0x84 }
+  - { offset: 0xBCAC1, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager centralManager:didDiscoverPeripheral:advertisementData:RSSI:]', symObjAddr: 0xC50, symBinAddr: 0x11E64, symSize: 0xDC }
+  - { offset: 0xBCB5A, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager centralManager:didConnectPeripheral:]', symObjAddr: 0xD2C, symBinAddr: 0x11F40, symSize: 0x4C }
+  - { offset: 0xBCBAC, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager centralManager:didDisconnectPeripheral:error:]', symObjAddr: 0xD78, symBinAddr: 0x11F8C, symSize: 0x9C }
+  - { offset: 0xBCC2A, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager centralManager:didFailToConnectPeripheral:error:]', symObjAddr: 0xE14, symBinAddr: 0x12028, symSize: 0x4 }
+  - { offset: 0xBCC83, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didDiscoverServices:]', symObjAddr: 0xE18, symBinAddr: 0x1202C, symSize: 0xA8 }
+  - { offset: 0xBCCD5, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didDiscoverCharacteristicsForService:error:]', symObjAddr: 0xEC0, symBinAddr: 0x120D4, symSize: 0x28C }
+  - { offset: 0xBCDC2, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didDiscoverDescriptorsForCharacteristic:error:]', symObjAddr: 0x114C, symBinAddr: 0x12360, symSize: 0x3D8 }
+  - { offset: 0xBCED7, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didUpdateValueForDescriptor:error:]', symObjAddr: 0x1524, symBinAddr: 0x12738, symSize: 0x2D0 }
+  - { offset: 0xBCFA4, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didUpdateNotificationStateForCharacteristic:error:]', symObjAddr: 0x17F4, symBinAddr: 0x12A08, symSize: 0x4 }
+  - { offset: 0xBCFFD, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didUpdateValueForCharacteristic:error:]', symObjAddr: 0x17F8, symBinAddr: 0x12A0C, symSize: 0xB8 }
+  - { offset: 0xBD086, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheral:didWriteValueForCharacteristic:error:]', symObjAddr: 0x18B0, symBinAddr: 0x12AC4, symSize: 0xB8 }
+  - { offset: 0xBD10F, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager peripheralIsReadyToSendWriteWithoutResponse:]', symObjAddr: 0x1968, symBinAddr: 0x12B7C, symSize: 0xC4 }
+  - { offset: 0xBD17E, size: 0x8, addend: 0x0, symName: '___70-[TelinkBluetoothManager peripheralIsReadyToSendWriteWithoutResponse:]_block_invoke', symObjAddr: 0x1A2C, symBinAddr: 0x12C40, symSize: 0x20 }
+  - { offset: 0xBD1C0, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager writeValueAvailableIOS11TimeoutAction]', symObjAddr: 0x1A4C, symBinAddr: 0x12C60, symSize: 0x84 }
+  - { offset: 0xBD20F, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager startScanWithDiscoverPeripheralBlock:]', symObjAddr: 0x1AD0, symBinAddr: 0x12CE4, symSize: 0xFC }
+  - { offset: 0xBD254, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager stopScan]', symObjAddr: 0x1BCC, symBinAddr: 0x12DE0, symSize: 0x30 }
+  - { offset: 0xBD288, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectPeripheral:timeout:resultBlock:]', symObjAddr: 0x1BFC, symBinAddr: 0x12E10, symSize: 0xC }
+  - { offset: 0xBD2EA, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectPeripheral:options:timeout:resultBlock:]', symObjAddr: 0x1C08, symBinAddr: 0x12E1C, symSize: 0x240 }
+  - { offset: 0xBD3EC, size: 0x8, addend: 0x0, symName: '___72-[TelinkBluetoothManager connectPeripheral:options:timeout:resultBlock:]_block_invoke', symObjAddr: 0x1E48, symBinAddr: 0x1305C, symSize: 0x7C }
+  - { offset: 0xBD43B, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager cancelConnectionPeripheral:timeout:resultBlock:]', symObjAddr: 0x1ED8, symBinAddr: 0x130D8, symSize: 0x1C0 }
+  - { offset: 0xBD4EA, size: 0x8, addend: 0x0, symName: '___73-[TelinkBluetoothManager cancelConnectionPeripheral:timeout:resultBlock:]_block_invoke', symObjAddr: 0x2098, symBinAddr: 0x13298, symSize: 0x7C }
+  - { offset: 0xBD539, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager discoverServicesOfPeripheral:timeout:resultBlock:]', symObjAddr: 0x2114, symBinAddr: 0x13314, symSize: 0xC }
+  - { offset: 0xBD59B, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager discoverServicesOfPeripheral:services:timeout:resultBlock:]', symObjAddr: 0x2120, symBinAddr: 0x13320, symSize: 0x20C }
+  - { offset: 0xBD694, size: 0x8, addend: 0x0, symName: '___84-[TelinkBluetoothManager discoverServicesOfPeripheral:services:timeout:resultBlock:]_block_invoke', symObjAddr: 0x232C, symBinAddr: 0x1352C, symSize: 0x7C }
+  - { offset: 0xBD6E3, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager changeNotifyToState:Peripheral:characteristic:timeout:resultBlock:]', symObjAddr: 0x23A8, symBinAddr: 0x135A8, symSize: 0x214 }
+  - { offset: 0xBD7F4, size: 0x8, addend: 0x0, symName: '___92-[TelinkBluetoothManager changeNotifyToState:Peripheral:characteristic:timeout:resultBlock:]_block_invoke', symObjAddr: 0x25BC, symBinAddr: 0x137BC, symSize: 0x7C }
+  - { offset: 0xBD843, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager writeValue:toPeripheral:forCharacteristic:type:]', symObjAddr: 0x2638, symBinAddr: 0x13838, symSize: 0x124 }
+  - { offset: 0xBD8BF, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager writeValueAvailableIOS11:toPeripheral:forCharacteristic:type:completeHandle:]', symObjAddr: 0x275C, symBinAddr: 0x1395C, symSize: 0x150 }
+  - { offset: 0xBD962, size: 0x8, addend: 0x0, symName: '___102-[TelinkBluetoothManager writeValueAvailableIOS11:toPeripheral:forCharacteristic:type:completeHandle:]_block_invoke', symObjAddr: 0x28AC, symBinAddr: 0x13AAC, symSize: 0x4C }
+  - { offset: 0xBD9A4, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager readCharacteristicWithCharacteristic:ofPeripheral:]', symObjAddr: 0x28F8, symBinAddr: 0x13AF8, symSize: 0x100 }
+  - { offset: 0xBD9FE, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager resetProperties]', symObjAddr: 0x29F8, symBinAddr: 0x13BF8, symSize: 0xB4 }
+  - { offset: 0xBDA48, size: 0x8, addend: 0x0, symName: '___41-[TelinkBluetoothManager resetProperties]_block_invoke', symObjAddr: 0x2AAC, symBinAddr: 0x13CAC, symSize: 0x14 }
+  - { offset: 0xBDA8A, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager retrieveConnectedPeripherals]', symObjAddr: 0x2AC0, symBinAddr: 0x13CC0, symSize: 0x1B8 }
+  - { offset: 0xBDB15, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager centralManager]', symObjAddr: 0x2C78, symBinAddr: 0x13E78, symSize: 0x8 }
+  - { offset: 0xBDB4C, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setCentralManager:]', symObjAddr: 0x2C80, symBinAddr: 0x13E80, symSize: 0xC }
+  - { offset: 0xBDB8D, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager currentPeripheral]', symObjAddr: 0x2C8C, symBinAddr: 0x13E8C, symSize: 0x8 }
+  - { offset: 0xBDBC4, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setCurrentPeripheral:]', symObjAddr: 0x2C94, symBinAddr: 0x13E94, symSize: 0xC }
+  - { offset: 0xBDC05, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager currentCharacteristic]', symObjAddr: 0x2CA0, symBinAddr: 0x13EA0, symSize: 0x8 }
+  - { offset: 0xBDC3C, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setCurrentCharacteristic:]', symObjAddr: 0x2CA8, symBinAddr: 0x13EA8, symSize: 0xC }
+  - { offset: 0xBDC7D, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager updateCentralStateBlock]', symObjAddr: 0x2CB4, symBinAddr: 0x13EB4, symSize: 0x8 }
+  - { offset: 0xBDCB4, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setUpdateCentralStateBlock:]', symObjAddr: 0x2CBC, symBinAddr: 0x13EBC, symSize: 0x8 }
+  - { offset: 0xBDCF3, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager didUpdateValueForCharacteristicResultBlock]', symObjAddr: 0x2CC4, symBinAddr: 0x13EC4, symSize: 0x8 }
+  - { offset: 0xBDD2A, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setDidUpdateValueForCharacteristicResultBlock:]', symObjAddr: 0x2CCC, symBinAddr: 0x13ECC, symSize: 0x8 }
+  - { offset: 0xBDD69, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager didWriteValueForCharacteristicResultBlock]', symObjAddr: 0x2CD4, symBinAddr: 0x13ED4, symSize: 0x8 }
+  - { offset: 0xBDDA0, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setDidWriteValueForCharacteristicResultBlock:]', symObjAddr: 0x2CDC, symBinAddr: 0x13EDC, symSize: 0x8 }
+  - { offset: 0xBDDDF, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager didDisconnectPeripheralResultBlock]', symObjAddr: 0x2CE4, symBinAddr: 0x13EE4, symSize: 0x8 }
+  - { offset: 0xBDE16, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setDidDisconnectPeripheralResultBlock:]', symObjAddr: 0x2CEC, symBinAddr: 0x13EEC, symSize: 0x8 }
+  - { offset: 0xBDE55, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager bluetoothIsReadyToSendWriteWithoutResponseBlock]', symObjAddr: 0x2CF4, symBinAddr: 0x13EF4, symSize: 0x8 }
+  - { offset: 0xBDE8C, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setBluetoothIsReadyToSendWriteWithoutResponseBlock:]', symObjAddr: 0x2CFC, symBinAddr: 0x13EFC, symSize: 0x8 }
+  - { offset: 0xBDECB, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectTimer]', symObjAddr: 0x2D04, symBinAddr: 0x13F04, symSize: 0x8 }
+  - { offset: 0xBDF02, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setConnectTimer:]', symObjAddr: 0x2D0C, symBinAddr: 0x13F0C, symSize: 0xC }
+  - { offset: 0xBDF43, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager discoverPeripheralBlock]', symObjAddr: 0x2D18, symBinAddr: 0x13F18, symSize: 0x8 }
+  - { offset: 0xBDF7A, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setDiscoverPeripheralBlock:]', symObjAddr: 0x2D20, symBinAddr: 0x13F20, symSize: 0x8 }
+  - { offset: 0xBDFB9, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager connectResultBlock]', symObjAddr: 0x2D28, symBinAddr: 0x13F28, symSize: 0x8 }
+  - { offset: 0xBDFF0, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setConnectResultBlock:]', symObjAddr: 0x2D30, symBinAddr: 0x13F30, symSize: 0x8 }
+  - { offset: 0xBE02F, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager disconnectResultBlock]', symObjAddr: 0x2D38, symBinAddr: 0x13F38, symSize: 0x8 }
+  - { offset: 0xBE066, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setDisconnectResultBlock:]', symObjAddr: 0x2D40, symBinAddr: 0x13F40, symSize: 0x8 }
+  - { offset: 0xBE0A5, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager discoverServicesResultBlock]', symObjAddr: 0x2D48, symBinAddr: 0x13F48, symSize: 0x8 }
+  - { offset: 0xBE0DC, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setDiscoverServicesResultBlock:]', symObjAddr: 0x2D50, symBinAddr: 0x13F50, symSize: 0x8 }
+  - { offset: 0xBE11B, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager changeNotifyResultBlock]', symObjAddr: 0x2D58, symBinAddr: 0x13F58, symSize: 0x8 }
+  - { offset: 0xBE152, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager setChangeNotifyResultBlock:]', symObjAddr: 0x2D60, symBinAddr: 0x13F60, symSize: 0x8 }
+  - { offset: 0xBE191, size: 0x8, addend: 0x0, symName: '-[TelinkBluetoothManager .cxx_destruct]', symObjAddr: 0x2D68, symBinAddr: 0x13F68, symSize: 0xC0 }
+  - { offset: 0xBE9A3, size: 0x8, addend: 0x0, symName: '+[NTOtaProgress progressWithFraction:bytesSent:totalBytes:chipType:]', symObjAddr: 0x0, symBinAddr: 0x14028, symSize: 0x94 }
+  - { offset: 0xBED75, size: 0x8, addend: 0x0, symName: '+[NTOtaProgress progressWithFraction:bytesSent:totalBytes:chipType:]', symObjAddr: 0x0, symBinAddr: 0x14028, symSize: 0x94 }
+  - { offset: 0xBEDF8, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress updateWithFraction:bytesSent:]', symObjAddr: 0x94, symBinAddr: 0x140BC, symSize: 0x2C }
+  - { offset: 0xBEE7F, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress description]', symObjAddr: 0xC0, symBinAddr: 0x140E8, symSize: 0xE8 }
+  - { offset: 0xBEEF2, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress fractionCompleted]', symObjAddr: 0x1A8, symBinAddr: 0x141D0, symSize: 0x8 }
+  - { offset: 0xBEF27, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setFractionCompleted:]', symObjAddr: 0x1B0, symBinAddr: 0x141D8, symSize: 0x8 }
+  - { offset: 0xBEF65, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress bytesSent]', symObjAddr: 0x1B8, symBinAddr: 0x141E0, symSize: 0x8 }
+  - { offset: 0xBEF9C, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setBytesSent:]', symObjAddr: 0x1C0, symBinAddr: 0x141E8, symSize: 0x8 }
+  - { offset: 0xBEFD9, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress totalBytes]', symObjAddr: 0x1C8, symBinAddr: 0x141F0, symSize: 0x8 }
+  - { offset: 0xBF010, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setTotalBytes:]', symObjAddr: 0x1D0, symBinAddr: 0x141F8, symSize: 0x8 }
+  - { offset: 0xBF04D, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress currentSpeedBytesPerSecond]', symObjAddr: 0x1D8, symBinAddr: 0x14200, symSize: 0x8 }
+  - { offset: 0xBF084, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setCurrentSpeedBytesPerSecond:]', symObjAddr: 0x1E0, symBinAddr: 0x14208, symSize: 0x8 }
+  - { offset: 0xBF0C1, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress averageSpeedBytesPerSecond]', symObjAddr: 0x1E8, symBinAddr: 0x14210, symSize: 0x8 }
+  - { offset: 0xBF0F8, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setAverageSpeedBytesPerSecond:]', symObjAddr: 0x1F0, symBinAddr: 0x14218, symSize: 0x8 }
+  - { offset: 0xBF135, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress state]', symObjAddr: 0x1F8, symBinAddr: 0x14220, symSize: 0x8 }
+  - { offset: 0xBF16C, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setState:]', symObjAddr: 0x200, symBinAddr: 0x14228, symSize: 0x8 }
+  - { offset: 0xBF1A9, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress stateDescription]', symObjAddr: 0x208, symBinAddr: 0x14230, symSize: 0x8 }
+  - { offset: 0xBF1E0, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setStateDescription:]', symObjAddr: 0x210, symBinAddr: 0x14238, symSize: 0x8 }
+  - { offset: 0xBF21F, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress chipType]', symObjAddr: 0x218, symBinAddr: 0x14240, symSize: 0x8 }
+  - { offset: 0xBF256, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress setChipType:]', symObjAddr: 0x220, symBinAddr: 0x14248, symSize: 0x8 }
+  - { offset: 0xBF293, size: 0x8, addend: 0x0, symName: '-[NTOtaProgress .cxx_destruct]', symObjAddr: 0x228, symBinAddr: 0x14250, symSize: 0xC }
+  - { offset: 0xBF2C6, size: 0x8, addend: 0x0, symName: '+[NTOtaConfiguration defaultConfiguration]', symObjAddr: 0x234, symBinAddr: 0x1425C, symSize: 0x50 }
+  - { offset: 0xBF309, size: 0x8, addend: 0x0, symName: '+[NTOtaConfiguration configurationWithProgress:completion:]', symObjAddr: 0x284, symBinAddr: 0x142AC, symSize: 0x7C }
+  - { offset: 0xBF370, size: 0x8, addend: 0x0, symName: '+[NTOtaConfiguration configurationWithProgress:completion:chipSpecificConfig:]', symObjAddr: 0x300, symBinAddr: 0x14328, symSize: 0x68 }
+  - { offset: 0xBF3E7, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration copyWithZone:]', symObjAddr: 0x368, symBinAddr: 0x14390, symSize: 0x108 }
+  - { offset: 0xBF43A, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration description]', symObjAddr: 0x470, symBinAddr: 0x14498, symSize: 0x68 }
+  - { offset: 0xBF471, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration timeout]', symObjAddr: 0x4D8, symBinAddr: 0x14500, symSize: 0x8 }
+  - { offset: 0xBF4A6, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setTimeout:]', symObjAddr: 0x4E0, symBinAddr: 0x14508, symSize: 0x8 }
+  - { offset: 0xBF4E4, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration connectionTimeout]', symObjAddr: 0x4E8, symBinAddr: 0x14510, symSize: 0x8 }
+  - { offset: 0xBF519, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setConnectionTimeout:]', symObjAddr: 0x4F0, symBinAddr: 0x14518, symSize: 0x8 }
+  - { offset: 0xBF557, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration discoveryTimeout]', symObjAddr: 0x4F8, symBinAddr: 0x14520, symSize: 0x8 }
+  - { offset: 0xBF58C, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setDiscoveryTimeout:]', symObjAddr: 0x500, symBinAddr: 0x14528, symSize: 0x8 }
+  - { offset: 0xBF5CA, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration chipSpecificConfig]', symObjAddr: 0x508, symBinAddr: 0x14530, symSize: 0x8 }
+  - { offset: 0xBF601, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setChipSpecificConfig:]', symObjAddr: 0x510, symBinAddr: 0x14538, symSize: 0xC }
+  - { offset: 0xBF642, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration progressBlock]', symObjAddr: 0x51C, symBinAddr: 0x14544, symSize: 0x8 }
+  - { offset: 0xBF679, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setProgressBlock:]', symObjAddr: 0x524, symBinAddr: 0x1454C, symSize: 0x8 }
+  - { offset: 0xBF6B8, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration completionBlock]', symObjAddr: 0x52C, symBinAddr: 0x14554, symSize: 0x8 }
+  - { offset: 0xBF6EF, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setCompletionBlock:]', symObjAddr: 0x534, symBinAddr: 0x1455C, symSize: 0x8 }
+  - { offset: 0xBF72E, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration stateChangeBlock]', symObjAddr: 0x53C, symBinAddr: 0x14564, symSize: 0x8 }
+  - { offset: 0xBF765, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration setStateChangeBlock:]', symObjAddr: 0x544, symBinAddr: 0x1456C, symSize: 0x8 }
+  - { offset: 0xBF7A4, size: 0x8, addend: 0x0, symName: '-[NTOtaConfiguration .cxx_destruct]', symObjAddr: 0x54C, symBinAddr: 0x14574, symSize: 0x48 }
+  - { offset: 0xBF8B3, size: 0x8, addend: 0x0, symName: _kTelinkGenericOTALibVersion, symObjAddr: 0xB8, symBinAddr: 0x2C5C0, symSize: 0x0 }
+  - { offset: 0xBF8D3, size: 0x8, addend: 0x0, symName: _kOTAServiceUUID, symObjAddr: 0xC0, symBinAddr: 0x2C5C8, symSize: 0x0 }
+  - { offset: 0xBF8E9, size: 0x8, addend: 0x0, symName: _kOTACharacteristicUUID, symObjAddr: 0xC8, symBinAddr: 0x2C5D0, symSize: 0x0 }
+  - { offset: 0xBF8FF, size: 0x8, addend: 0x0, symName: _kOTAWriteInterval, symObjAddr: 0xD0, symBinAddr: 0x22AB7, symSize: 0x0 }
+  - { offset: 0xBF921, size: 0x8, addend: 0x0, symName: _kOTAReadInterval, symObjAddr: 0xD1, symBinAddr: 0x22AB8, symSize: 0x0 }
+  - { offset: 0xBF937, size: 0x8, addend: 0x0, symName: _kOTAReadTimeout, symObjAddr: 0xD2, symBinAddr: 0x22AB9, symSize: 0x0 }
+  - { offset: 0xBF97D, size: 0x8, addend: 0x0, symName: '+[NTOtaError errorWithCode:description:]', symObjAddr: 0x0, symBinAddr: 0x145BC, symSize: 0x8 }
+  - { offset: 0xBF9A1, size: 0x8, addend: 0x0, symName: _NTOtaErrorDomain, symObjAddr: 0xE08, symBinAddr: 0x2C5D8, symSize: 0x0 }
+  - { offset: 0xBF9B7, size: 0x8, addend: 0x0, symName: _NTOtaTelinkErrorDomain, symObjAddr: 0xE10, symBinAddr: 0x2C5E0, symSize: 0x0 }
+  - { offset: 0xBF9CD, size: 0x8, addend: 0x0, symName: _NTOtaNordicErrorDomain, symObjAddr: 0xE18, symBinAddr: 0x2C5E8, symSize: 0x0 }
+  - { offset: 0xBF9E3, size: 0x8, addend: 0x0, symName: _NTOtaOnMicroErrorDomain, symObjAddr: 0xE20, symBinAddr: 0x2C5F0, symSize: 0x0 }
+  - { offset: 0xBF9F9, size: 0x8, addend: 0x0, symName: _NTOtaGoodixErrorDomain, symObjAddr: 0xE28, symBinAddr: 0x2C5F8, symSize: 0x0 }
+  - { offset: 0xBFA0F, size: 0x8, addend: 0x0, symName: _NTOtaErrorOriginalCodeKey, symObjAddr: 0xE30, symBinAddr: 0x2C600, symSize: 0x0 }
+  - { offset: 0xBFA25, size: 0x8, addend: 0x0, symName: _NTOtaErrorChipTypeKey, symObjAddr: 0xE38, symBinAddr: 0x2C608, symSize: 0x0 }
+  - { offset: 0xBFA3B, size: 0x8, addend: 0x0, symName: _NTOtaErrorDetailKey, symObjAddr: 0xE40, symBinAddr: 0x2C610, symSize: 0x0 }
+  - { offset: 0xBFB42, size: 0x8, addend: 0x0, symName: '+[NTOtaError errorWithCode:description:]', symObjAddr: 0x0, symBinAddr: 0x145BC, symSize: 0x8 }
+  - { offset: 0xBFB93, size: 0x8, addend: 0x0, symName: '+[NTOtaError errorWithCode:description:detail:]', symObjAddr: 0x8, symBinAddr: 0x145C4, symSize: 0x11C }
+  - { offset: 0xBFC2F, size: 0x8, addend: 0x0, symName: '+[NTOtaError chipErrorWithChipType:originalCode:description:]', symObjAddr: 0x124, symBinAddr: 0x146E0, symSize: 0x1C0 }
+  - { offset: 0xBFCE0, size: 0x8, addend: 0x0, symName: '+[NTOtaError timeoutErrorWithOperation:]', symObjAddr: 0x2E4, symBinAddr: 0x148A0, symSize: 0x80 }
+  - { offset: 0xBFD37, size: 0x8, addend: 0x0, symName: '+[NTOtaError deviceNotSupportedErrorWithChipType:]', symObjAddr: 0x364, symBinAddr: 0x14920, symSize: 0x94 }
+  - { offset: 0xBFDAC, size: 0x8, addend: 0x0, symName: '+[NTOtaError localizedDescriptionForError:]', symObjAddr: 0x3F8, symBinAddr: 0x149B4, symSize: 0x1F0 }
+  - { offset: 0xBFE58, size: 0x8, addend: 0x0, symName: '+[NTOtaError descriptionForErrorCode:]', symObjAddr: 0x5E8, symBinAddr: 0x14BA4, symSize: 0x23C }
+  - { offset: 0xBFF15, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel initWithPeripheral:advertisementData:RSSI:]', symObjAddr: 0x0, symBinAddr: 0x14DE0, symSize: 0x154 }
+  - { offset: 0xC0007, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel initWithPeripheral:advertisementData:RSSI:]', symObjAddr: 0x0, symBinAddr: 0x14DE0, symSize: 0x154 }
+  - { offset: 0xC006E, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel showName]', symObjAddr: 0x154, symBinAddr: 0x14F34, symSize: 0x4C }
+  - { offset: 0xC00B5, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel isEqual:]', symObjAddr: 0x1A0, symBinAddr: 0x14F80, symSize: 0x90 }
+  - { offset: 0xC00FC, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel peripheral]', symObjAddr: 0x230, symBinAddr: 0x15010, symSize: 0x8 }
+  - { offset: 0xC0133, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel setPeripheral:]', symObjAddr: 0x238, symBinAddr: 0x15018, symSize: 0xC }
+  - { offset: 0xC0174, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel advertisementData]', symObjAddr: 0x244, symBinAddr: 0x15024, symSize: 0x8 }
+  - { offset: 0xC01AB, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel setAdvertisementData:]', symObjAddr: 0x24C, symBinAddr: 0x1502C, symSize: 0xC }
+  - { offset: 0xC01EC, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel RSSI]', symObjAddr: 0x258, symBinAddr: 0x15038, symSize: 0x8 }
+  - { offset: 0xC0223, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel setRSSI:]', symObjAddr: 0x260, symBinAddr: 0x15040, symSize: 0xC }
+  - { offset: 0xC0264, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel uuid]', symObjAddr: 0x26C, symBinAddr: 0x1504C, symSize: 0x8 }
+  - { offset: 0xC029B, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel setUuid:]', symObjAddr: 0x274, symBinAddr: 0x15054, symSize: 0xC }
+  - { offset: 0xC02DC, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel advName]', symObjAddr: 0x280, symBinAddr: 0x15060, symSize: 0x8 }
+  - { offset: 0xC0313, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel setAdvName:]', symObjAddr: 0x288, symBinAddr: 0x15068, symSize: 0xC }
+  - { offset: 0xC0354, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel bleName]', symObjAddr: 0x294, symBinAddr: 0x15074, symSize: 0x8 }
+  - { offset: 0xC038B, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel setBleName:]', symObjAddr: 0x29C, symBinAddr: 0x1507C, symSize: 0xC }
+  - { offset: 0xC03CC, size: 0x8, addend: 0x0, symName: '-[TelinkDeviceModel .cxx_destruct]', symObjAddr: 0x2A8, symBinAddr: 0x15088, symSize: 0x60 }
+  - { offset: 0xC048C, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel init]', symObjAddr: 0x0, symBinAddr: 0x150E8, symSize: 0x90 }
+  - { offset: 0xC049A, size: 0x8, addend: 0x0, symName: '+[TelinkOtaManager share]', symObjAddr: 0xFB8, symBinAddr: 0x160A0, symSize: 0x30 }
+  - { offset: 0xC04C6, size: 0x8, addend: 0x0, symName: _share._otaManager, symObjAddr: 0x18CB8, symBinAddr: 0x34B00, symSize: 0x0 }
+  - { offset: 0xC04DD, size: 0x8, addend: 0x0, symName: _share.token, symObjAddr: 0x18CC0, symBinAddr: 0x34B08, symSize: 0x0 }
+  - { offset: 0xC0A4F, size: 0x8, addend: 0x0, symName: _crc16, symObjAddr: 0x41F8, symBinAddr: 0x19264, symSize: 0x50 }
+  - { offset: 0xC0A70, size: 0x8, addend: 0x0, symName: _crc16.poly, symObjAddr: 0x4C04, symBinAddr: 0x22AD8, symSize: 0x0 }
+  - { offset: 0xC0C98, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel init]', symObjAddr: 0x0, symBinAddr: 0x150E8, symSize: 0x90 }
+  - { offset: 0xC0CCF, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel initWithOTASettingsModel:]', symObjAddr: 0x90, symBinAddr: 0x15178, symSize: 0x14C }
+  - { offset: 0xC0D16, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setPduLength:]', symObjAddr: 0x1DC, symBinAddr: 0x152C4, symSize: 0x1C }
+  - { offset: 0xC0D55, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel outputSettingsDictionary]', symObjAddr: 0x1F8, symBinAddr: 0x152E0, symSize: 0x278 }
+  - { offset: 0xC0D9C, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel inputSettingsDictionary:]', symObjAddr: 0x470, symBinAddr: 0x15558, symSize: 0x4CC }
+  - { offset: 0xC0DDF, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel getDetailString]', symObjAddr: 0x93C, symBinAddr: 0x15A24, symSize: 0x324 }
+  - { offset: 0xC0E26, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel securityBootBinData]', symObjAddr: 0xC60, symBinAddr: 0x15D48, symSize: 0x68 }
+  - { offset: 0xC0E5E, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel serviceUuidString]', symObjAddr: 0xCC8, symBinAddr: 0x15DB0, symSize: 0x8 }
+  - { offset: 0xC0E95, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setServiceUuidString:]', symObjAddr: 0xCD0, symBinAddr: 0x15DB8, symSize: 0xC }
+  - { offset: 0xC0ED6, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel characteristicUuidString]', symObjAddr: 0xCDC, symBinAddr: 0x15DC4, symSize: 0x8 }
+  - { offset: 0xC0F0D, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setCharacteristicUuidString:]', symObjAddr: 0xCE4, symBinAddr: 0x15DCC, symSize: 0xC }
+  - { offset: 0xC0F4E, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel readInterval]', symObjAddr: 0xCF0, symBinAddr: 0x15DD8, symSize: 0x8 }
+  - { offset: 0xC0F85, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setReadInterval:]', symObjAddr: 0xCF8, symBinAddr: 0x15DE0, symSize: 0x8 }
+  - { offset: 0xC0FC2, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel writeInterval]', symObjAddr: 0xD00, symBinAddr: 0x15DE8, symSize: 0x8 }
+  - { offset: 0xC0FF9, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setWriteInterval:]', symObjAddr: 0xD08, symBinAddr: 0x15DF0, symSize: 0x8 }
+  - { offset: 0xC1036, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel filePath]', symObjAddr: 0xD10, symBinAddr: 0x15DF8, symSize: 0x8 }
+  - { offset: 0xC106D, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setFilePath:]', symObjAddr: 0xD18, symBinAddr: 0x15E00, symSize: 0xC }
+  - { offset: 0xC10AE, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel needSetFirmwareIndex]', symObjAddr: 0xD24, symBinAddr: 0x15E0C, symSize: 0x8 }
+  - { offset: 0xC10E5, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setNeedSetFirmwareIndex:]', symObjAddr: 0xD2C, symBinAddr: 0x15E14, symSize: 0x8 }
+  - { offset: 0xC1120, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel firmwareIndex]', symObjAddr: 0xD34, symBinAddr: 0x15E1C, symSize: 0x8 }
+  - { offset: 0xC1157, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setFirmwareIndex:]', symObjAddr: 0xD3C, symBinAddr: 0x15E24, symSize: 0x8 }
+  - { offset: 0xC1194, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel protocol]', symObjAddr: 0xD44, symBinAddr: 0x15E2C, symSize: 0x8 }
+  - { offset: 0xC11CB, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setProtocol:]', symObjAddr: 0xD4C, symBinAddr: 0x15E34, symSize: 0x8 }
+  - { offset: 0xC1208, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel versionCompare]', symObjAddr: 0xD54, symBinAddr: 0x15E3C, symSize: 0x8 }
+  - { offset: 0xC123F, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setVersionCompare:]', symObjAddr: 0xD5C, symBinAddr: 0x15E44, symSize: 0x8 }
+  - { offset: 0xC127A, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel binVersion]', symObjAddr: 0xD64, symBinAddr: 0x15E4C, symSize: 0x8 }
+  - { offset: 0xC12B1, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setBinVersion:]', symObjAddr: 0xD6C, symBinAddr: 0x15E54, symSize: 0x8 }
+  - { offset: 0xC12EE, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel pduLength]', symObjAddr: 0xD74, symBinAddr: 0x15E5C, symSize: 0x8 }
+  - { offset: 0xC1325, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel securityBootEnable]', symObjAddr: 0xD7C, symBinAddr: 0x15E64, symSize: 0x8 }
+  - { offset: 0xC135C, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setSecurityBootEnable:]', symObjAddr: 0xD84, symBinAddr: 0x15E6C, symSize: 0x8 }
+  - { offset: 0xC1397, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel securityBootFilePath]', symObjAddr: 0xD8C, symBinAddr: 0x15E74, symSize: 0x8 }
+  - { offset: 0xC13CE, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setSecurityBootFilePath:]', symObjAddr: 0xD94, symBinAddr: 0x15E7C, symSize: 0xC }
+  - { offset: 0xC140F, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel setSecurityBootBinData:]', symObjAddr: 0xDA0, symBinAddr: 0x15E88, symSize: 0xC }
+  - { offset: 0xC1450, size: 0x8, addend: 0x0, symName: '-[OTASettingsModel .cxx_destruct]', symObjAddr: 0xDAC, symBinAddr: 0x15E94, symSize: 0x54 }
+  - { offset: 0xC1483, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel initWithParameters:]', symObjAddr: 0xE00, symBinAddr: 0x15EE8, symSize: 0xAC }
+  - { offset: 0xC150E, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel parameters]', symObjAddr: 0xEAC, symBinAddr: 0x15F94, symSize: 0x8 }
+  - { offset: 0xC1546, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel setParameters:]', symObjAddr: 0xEB4, symBinAddr: 0x15F9C, symSize: 0xC }
+  - { offset: 0xC1588, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel versionNumber]', symObjAddr: 0xEC0, symBinAddr: 0x15FA8, symSize: 0x8 }
+  - { offset: 0xC15C0, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel setVersionNumber:]', symObjAddr: 0xEC8, symBinAddr: 0x15FB0, symSize: 0x8 }
+  - { offset: 0xC15FE, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel versionAccept]', symObjAddr: 0xED0, symBinAddr: 0x15FB8, symSize: 0x8 }
+  - { offset: 0xC1636, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel setVersionAccept:]', symObjAddr: 0xED8, symBinAddr: 0x15FC0, symSize: 0x8 }
+  - { offset: 0xC1672, size: 0x8, addend: 0x0, symName: '-[TelinkOtaFirmWareVersionResponseModel .cxx_destruct]', symObjAddr: 0xEE0, symBinAddr: 0x15FC8, symSize: 0xC }
+  - { offset: 0xC16A6, size: 0x8, addend: 0x0, symName: '-[TelinkOtaResultModel initWithParameters:]', symObjAddr: 0xEEC, symBinAddr: 0x15FD4, symSize: 0x9C }
+  - { offset: 0xC1720, size: 0x8, addend: 0x0, symName: '-[TelinkOtaResultModel parameters]', symObjAddr: 0xF88, symBinAddr: 0x16070, symSize: 0x8 }
+  - { offset: 0xC1758, size: 0x8, addend: 0x0, symName: '-[TelinkOtaResultModel setParameters:]', symObjAddr: 0xF90, symBinAddr: 0x16078, symSize: 0xC }
+  - { offset: 0xC179A, size: 0x8, addend: 0x0, symName: '-[TelinkOtaResultModel result]', symObjAddr: 0xF9C, symBinAddr: 0x16084, symSize: 0x8 }
+  - { offset: 0xC17D2, size: 0x8, addend: 0x0, symName: '-[TelinkOtaResultModel setResult:]', symObjAddr: 0xFA4, symBinAddr: 0x1608C, symSize: 0x8 }
+  - { offset: 0xC1810, size: 0x8, addend: 0x0, symName: '-[TelinkOtaResultModel .cxx_destruct]', symObjAddr: 0xFAC, symBinAddr: 0x16094, symSize: 0xC }
+  - { offset: 0xC1871, size: 0x8, addend: 0x0, symName: '+[TelinkOtaManager share].cold.1', symObjAddr: 0x4984, symBinAddr: 0x1CDC8, symSize: 0x14 }
+  - { offset: 0xC188D, size: 0x8, addend: 0x0, symName: '+[TelinkOtaManager share].cold.1', symObjAddr: 0x4984, symBinAddr: 0x1CDC8, symSize: 0x14 }
+  - { offset: 0xC18A0, size: 0x8, addend: 0x0, symName: '___25+[TelinkOtaManager share]_block_invoke', symObjAddr: 0xFE8, symBinAddr: 0x160D0, symSize: 0x2C }
+  - { offset: 0xC18C9, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager init]', symObjAddr: 0x1014, symBinAddr: 0x160FC, symSize: 0x70 }
+  - { offset: 0xC1901, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager startOTAWithOtaData:peripheral:otaProgressAction:otaResultAction:]', symObjAddr: 0x1084, symBinAddr: 0x1616C, symSize: 0x29C }
+  - { offset: 0xC1995, size: 0x8, addend: 0x0, symName: '___85-[TelinkOtaManager startOTAWithOtaData:peripheral:otaProgressAction:otaResultAction:]_block_invoke', symObjAddr: 0x1320, symBinAddr: 0x16408, symSize: 0x2C }
+  - { offset: 0xC19FA, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setBluetoothManagerParametersWithPeripheral:]', symObjAddr: 0x1360, symBinAddr: 0x16434, symSize: 0x494 }
+  - { offset: 0xC1A91, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager switchToBootLoaderPeripheralWithPeripheral:resultHandle:]', symObjAddr: 0x17F4, symBinAddr: 0x168C8, symSize: 0x18C }
+  - { offset: 0xC1B21, size: 0x8, addend: 0x0, symName: '___76-[TelinkOtaManager switchToBootLoaderPeripheralWithPeripheral:resultHandle:]_block_invoke', symObjAddr: 0x1980, symBinAddr: 0x16A54, symSize: 0x4C }
+  - { offset: 0xC1B63, size: 0x8, addend: 0x0, symName: '___76-[TelinkOtaManager switchToBootLoaderPeripheralWithPeripheral:resultHandle:]_block_invoke.198', symObjAddr: 0x19DC, symBinAddr: 0x16AA0, symSize: 0x21C }
+  - { offset: 0xC1BDB, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager switchToBootLoaderPeripheralFinish]', symObjAddr: 0x1BF8, symBinAddr: 0x16CBC, symSize: 0x388 }
+  - { offset: 0xC1CC2, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager startOtaAction]', symObjAddr: 0x1F80, symBinAddr: 0x17044, symSize: 0x304 }
+  - { offset: 0xC1D07, size: 0x8, addend: 0x0, symName: '___34-[TelinkOtaManager startOtaAction]_block_invoke', symObjAddr: 0x2284, symBinAddr: 0x17348, symSize: 0x70 }
+  - { offset: 0xC1D76, size: 0x8, addend: 0x0, symName: '___34-[TelinkOtaManager startOtaAction]_block_invoke.206', symObjAddr: 0x22F4, symBinAddr: 0x173B8, symSize: 0x14C }
+  - { offset: 0xC1DD2, size: 0x8, addend: 0x0, symName: '___34-[TelinkOtaManager startOtaAction]_block_invoke.208', symObjAddr: 0x2440, symBinAddr: 0x17504, symSize: 0x460 }
+  - { offset: 0xC1EFF, size: 0x8, addend: 0x0, symName: '___34-[TelinkOtaManager startOtaAction]_block_invoke_2', symObjAddr: 0x28A0, symBinAddr: 0x17964, symSize: 0x84 }
+  - { offset: 0xC1F3D, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager startSendFirmwareData]', symObjAddr: 0x2924, symBinAddr: 0x179E8, symSize: 0x5C }
+  - { offset: 0xC1F71, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOtaPublicKeyDataAndSignData]', symObjAddr: 0x2980, symBinAddr: 0x17A44, symSize: 0xC8 }
+  - { offset: 0xC1FC6, size: 0x8, addend: 0x0, symName: '___51-[TelinkOtaManager sendOtaPublicKeyDataAndSignData]_block_invoke', symObjAddr: 0x2A48, symBinAddr: 0x17B0C, symSize: 0x2A4 }
+  - { offset: 0xC20BE, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager stopOTA]', symObjAddr: 0x2D44, symBinAddr: 0x17DB0, symSize: 0xD8 }
+  - { offset: 0xC20F2, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaSuccessAction]', symObjAddr: 0x2E1C, symBinAddr: 0x17E88, symSize: 0xC4 }
+  - { offset: 0xC2147, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaFailAction]', symObjAddr: 0x2EE0, symBinAddr: 0x17F4C, symSize: 0x100 }
+  - { offset: 0xC21BD, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaFailActionWithError:]', symObjAddr: 0x2FE0, symBinAddr: 0x1804C, symSize: 0xD4 }
+  - { offset: 0xC2224, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager resetParameter]', symObjAddr: 0x30B4, symBinAddr: 0x18120, symSize: 0x4C }
+  - { offset: 0xC2258, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager getResultStringOfResultCode:]', symObjAddr: 0x3100, symBinAddr: 0x1816C, symSize: 0x184 }
+  - { offset: 0xC22AC, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAPartData]', symObjAddr: 0x3284, symBinAddr: 0x182F0, symSize: 0x400 }
+  - { offset: 0xC23B1, size: 0x8, addend: 0x0, symName: '___35-[TelinkOtaManager sendOTAPartData]_block_invoke', symObjAddr: 0x3684, symBinAddr: 0x186F0, symSize: 0x2C }
+  - { offset: 0xC23EF, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager readAction]', symObjAddr: 0x36B0, symBinAddr: 0x1871C, symSize: 0x13C }
+  - { offset: 0xC244A, size: 0x8, addend: 0x0, symName: '___30-[TelinkOtaManager readAction]_block_invoke', symObjAddr: 0x37EC, symBinAddr: 0x18858, symSize: 0x88 }
+  - { offset: 0xC2488, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager addFirmwareVersionRequestTimeoutTimer]', symObjAddr: 0x3874, symBinAddr: 0x188E0, symSize: 0x88 }
+  - { offset: 0xC24E2, size: 0x8, addend: 0x0, symName: '___57-[TelinkOtaManager addFirmwareVersionRequestTimeoutTimer]_block_invoke', symObjAddr: 0x38FC, symBinAddr: 0x18968, symSize: 0x88 }
+  - { offset: 0xC2520, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager firmwareVersionRequestTimeoutAction]', symObjAddr: 0x3984, symBinAddr: 0x189F0, symSize: 0xA0 }
+  - { offset: 0xC257B, size: 0x8, addend: 0x0, symName: '___55-[TelinkOtaManager firmwareVersionRequestTimeoutAction]_block_invoke', symObjAddr: 0x3A24, symBinAddr: 0x18A90, symSize: 0x20 }
+  - { offset: 0xC25BD, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager readTimeoutAction]', symObjAddr: 0x3A44, symBinAddr: 0x18AB0, symSize: 0xA0 }
+  - { offset: 0xC2618, size: 0x8, addend: 0x0, symName: '___37-[TelinkOtaManager readTimeoutAction]_block_invoke', symObjAddr: 0x3AE4, symBinAddr: 0x18B50, symSize: 0x20 }
+  - { offset: 0xC265A, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAPartDataAvailableIOS11]', symObjAddr: 0x3B04, symBinAddr: 0x18B70, symSize: 0x3E0 }
+  - { offset: 0xC2707, size: 0x8, addend: 0x0, symName: '___49-[TelinkOtaManager sendOTAPartDataAvailableIOS11]_block_invoke', symObjAddr: 0x3EE4, symBinAddr: 0x18F50, symSize: 0xD4 }
+  - { offset: 0xC2784, size: 0x8, addend: 0x0, symName: '___49-[TelinkOtaManager sendOTAPartDataAvailableIOS11]_block_invoke_2', symObjAddr: 0x3FB8, symBinAddr: 0x19024, symSize: 0x2C }
+  - { offset: 0xC27C2, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAData:index:]', symObjAddr: 0x3FE4, symBinAddr: 0x19050, symSize: 0x40 }
+  - { offset: 0xC288E, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager getOTAFormatDataWithData:index:]', symObjAddr: 0x4024, symBinAddr: 0x19090, symSize: 0x1D4 }
+  - { offset: 0xC29CD, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAVersionGet]', symObjAddr: 0x4248, symBinAddr: 0x192B4, symSize: 0x60 }
+  - { offset: 0xC2A23, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAStart]', symObjAddr: 0x42A8, symBinAddr: 0x19314, symSize: 0x60 }
+  - { offset: 0xC2A79, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAEndWithLastOtaIndex:]', symObjAddr: 0x4308, symBinAddr: 0x19374, symSize: 0x10C }
+  - { offset: 0xC2AF1, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAStartExtendWithOTAPacketLength:versionCompare:]', symObjAddr: 0x4414, symBinAddr: 0x19480, symSize: 0x10C }
+  - { offset: 0xC2B8B, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOTAFirmWareVersionRequestWithFirmWareVersion:versionCompare:]', symObjAddr: 0x4520, symBinAddr: 0x1958C, symSize: 0x10C }
+  - { offset: 0xC2C25, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendFirmwareIndexSetWithIndex:]', symObjAddr: 0x462C, symBinAddr: 0x19698, symSize: 0xD4 }
+  - { offset: 0xC2CAE, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendOtaData:]', symObjAddr: 0x4700, symBinAddr: 0x1976C, symSize: 0xDC }
+  - { offset: 0xC2CEF, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager getTelinkOtaOpcodeWithPduData:]', symObjAddr: 0x47DC, symBinAddr: 0x19848, symSize: 0x5C }
+  - { offset: 0xC2D76, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager settings]', symObjAddr: 0x4838, symBinAddr: 0x198A4, symSize: 0x8 }
+  - { offset: 0xC2DAD, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setSettings:]', symObjAddr: 0x4840, symBinAddr: 0x198AC, symSize: 0xC }
+  - { offset: 0xC2DEE, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaProgressBlock]', symObjAddr: 0x484C, symBinAddr: 0x198B8, symSize: 0x8 }
+  - { offset: 0xC2E26, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setOtaProgressBlock:]', symObjAddr: 0x4854, symBinAddr: 0x198C0, symSize: 0x8 }
+  - { offset: 0xC2E66, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaResultBlock]', symObjAddr: 0x485C, symBinAddr: 0x198C8, symSize: 0x8 }
+  - { offset: 0xC2E9E, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setOtaResultBlock:]', symObjAddr: 0x4864, symBinAddr: 0x198D0, symSize: 0x8 }
+  - { offset: 0xC2EDE, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager backBootLoaderPeripheralBlock]', symObjAddr: 0x486C, symBinAddr: 0x198D8, symSize: 0x8 }
+  - { offset: 0xC2F16, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setBackBootLoaderPeripheralBlock:]', symObjAddr: 0x4874, symBinAddr: 0x198E0, symSize: 0x8 }
+  - { offset: 0xC2F56, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaData]', symObjAddr: 0x487C, symBinAddr: 0x198E8, symSize: 0x8 }
+  - { offset: 0xC2F8E, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setOtaData:]', symObjAddr: 0x4884, symBinAddr: 0x198F0, symSize: 0xC }
+  - { offset: 0xC2FD0, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager OTAing]', symObjAddr: 0x4890, symBinAddr: 0x198FC, symSize: 0x8 }
+  - { offset: 0xC3008, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setOTAing:]', symObjAddr: 0x4898, symBinAddr: 0x19904, symSize: 0x8 }
+  - { offset: 0xC3044, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager stopOTAFlag]', symObjAddr: 0x48A0, symBinAddr: 0x1990C, symSize: 0x8 }
+  - { offset: 0xC307C, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setStopOTAFlag:]', symObjAddr: 0x48A8, symBinAddr: 0x19914, symSize: 0x8 }
+  - { offset: 0xC30B8, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager offset]', symObjAddr: 0x48B0, symBinAddr: 0x1991C, symSize: 0x8 }
+  - { offset: 0xC30F0, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setOffset:]', symObjAddr: 0x48B8, symBinAddr: 0x19924, symSize: 0x8 }
+  - { offset: 0xC312E, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager otaPackIndex]', symObjAddr: 0x48C0, symBinAddr: 0x1992C, symSize: 0x8 }
+  - { offset: 0xC3166, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setOtaPackIndex:]', symObjAddr: 0x48C8, symBinAddr: 0x19934, symSize: 0x8 }
+  - { offset: 0xC31A4, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager sendFinish]', symObjAddr: 0x48D0, symBinAddr: 0x1993C, symSize: 0x8 }
+  - { offset: 0xC31DC, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setSendFinish:]', symObjAddr: 0x48D8, symBinAddr: 0x19944, symSize: 0x8 }
+  - { offset: 0xC3218, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager readTimeoutInterval]', symObjAddr: 0x48E0, symBinAddr: 0x1994C, symSize: 0x8 }
+  - { offset: 0xC324E, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setReadTimeoutInterval:]', symObjAddr: 0x48E8, symBinAddr: 0x19954, symSize: 0x8 }
+  - { offset: 0xC328D, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager isReading]', symObjAddr: 0x48F0, symBinAddr: 0x1995C, symSize: 0x8 }
+  - { offset: 0xC32C5, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setIsReading:]', symObjAddr: 0x48F8, symBinAddr: 0x19964, symSize: 0x8 }
+  - { offset: 0xC3301, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager isReadBeforeOtaIndex0]', symObjAddr: 0x4900, symBinAddr: 0x1996C, symSize: 0x8 }
+  - { offset: 0xC3339, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setIsReadBeforeOtaIndex0:]', symObjAddr: 0x4908, symBinAddr: 0x19974, symSize: 0x8 }
+  - { offset: 0xC3375, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager bootLoaderDeviceList]', symObjAddr: 0x4910, symBinAddr: 0x1997C, symSize: 0x8 }
+  - { offset: 0xC33AD, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager setBootLoaderDeviceList:]', symObjAddr: 0x4918, symBinAddr: 0x19984, symSize: 0xC }
+  - { offset: 0xC33EF, size: 0x8, addend: 0x0, symName: '-[TelinkOtaManager .cxx_destruct]', symObjAddr: 0x4924, symBinAddr: 0x19990, symSize: 0x60 }
+  - { offset: 0xC3CA5, size: 0x8, addend: 0x0, symName: '+[NTOtaManager sharedManager]', symObjAddr: 0x0, symBinAddr: 0x199F0, symSize: 0x30 }
+  - { offset: 0xC3CB8, size: 0x8, addend: 0x0, symName: '+[NTOtaManager sharedManager]', symObjAddr: 0x0, symBinAddr: 0x199F0, symSize: 0x30 }
+  - { offset: 0xC3CE2, size: 0x8, addend: 0x0, symName: _sharedManager.instance, symObjAddr: 0x9A18, symBinAddr: 0x34B10, symSize: 0x0 }
+  - { offset: 0xC3CF8, size: 0x8, addend: 0x0, symName: _sharedManager.onceToken, symObjAddr: 0x9A20, symBinAddr: 0x34B18, symSize: 0x0 }
+  - { offset: 0xC3E95, size: 0x8, addend: 0x0, symName: '+[NTOtaManager sharedManager].cold.1', symObjAddr: 0x1598, symBinAddr: 0x1CDDC, symSize: 0x14 }
+  - { offset: 0xC3EB1, size: 0x8, addend: 0x0, symName: '+[NTOtaManager sharedManager].cold.1', symObjAddr: 0x1598, symBinAddr: 0x1CDDC, symSize: 0x14 }
+  - { offset: 0xC3EC3, size: 0x8, addend: 0x0, symName: '___29+[NTOtaManager sharedManager]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x19A20, symSize: 0x2C }
+  - { offset: 0xC3EEA, size: 0x8, addend: 0x0, symName: '-[NTOtaManager init]', symObjAddr: 0x5C, symBinAddr: 0x19A4C, symSize: 0xB0 }
+  - { offset: 0xC3F46, size: 0x8, addend: 0x0, symName: '-[NTOtaManager registerOtaImplementation:]', symObjAddr: 0x10C, symBinAddr: 0x19AFC, symSize: 0x144 }
+  - { offset: 0xC3FCC, size: 0x8, addend: 0x0, symName: '-[NTOtaManager registerBuiltInImplementations]', symObjAddr: 0x250, symBinAddr: 0x19C40, symSize: 0x40 }
+  - { offset: 0xC400D, size: 0x8, addend: 0x0, symName: '-[NTOtaManager unregisterOtaImplementation:]', symObjAddr: 0x290, symBinAddr: 0x19C80, symSize: 0xFC }
+  - { offset: 0xC408C, size: 0x8, addend: 0x0, symName: '-[NTOtaManager chipTypeForDevice:]', symObjAddr: 0x38C, symBinAddr: 0x19D7C, symSize: 0x2AC }
+  - { offset: 0xC419B, size: 0x8, addend: 0x0, symName: '-[NTOtaManager isOtaSupportedForDevice:]', symObjAddr: 0x638, symBinAddr: 0x1A028, symSize: 0x1C }
+  - { offset: 0xC41E2, size: 0x8, addend: 0x0, symName: '-[NTOtaManager supportedChipTypes]', symObjAddr: 0x654, symBinAddr: 0x1A044, symSize: 0xA0 }
+  - { offset: 0xC4229, size: 0x8, addend: 0x0, symName: '-[NTOtaManager implementationForChipType:]', symObjAddr: 0x6F4, symBinAddr: 0x1A0E4, symSize: 0xB8 }
+  - { offset: 0xC4280, size: 0x8, addend: 0x0, symName: '-[NTOtaManager startOTAForDevice:firmwareData:progressBlock:completionBlock:]', symObjAddr: 0x7AC, symBinAddr: 0x1A19C, symSize: 0xA8 }
+  - { offset: 0xC4307, size: 0x8, addend: 0x0, symName: '-[NTOtaManager startOTAForDevice:firmwareData:chipConfig:progressBlock:completionBlock:]', symObjAddr: 0x854, symBinAddr: 0x1A244, symSize: 0xB8 }
+  - { offset: 0xC439E, size: 0x8, addend: 0x0, symName: '-[NTOtaManager startOTAForDevice:firmwareData:configuration:]', symObjAddr: 0x90C, symBinAddr: 0x1A2FC, symSize: 0x588 }
+  - { offset: 0xC45DD, size: 0x8, addend: 0x0, symName: '___61-[NTOtaManager startOTAForDevice:firmwareData:configuration:]_block_invoke', symObjAddr: 0xE94, symBinAddr: 0x1A884, symSize: 0x7C }
+  - { offset: 0xC4660, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40w48w, symObjAddr: 0xF10, symBinAddr: 0x1A900, symSize: 0x44 }
+  - { offset: 0xC4689, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w48w, symObjAddr: 0xF54, symBinAddr: 0x1A944, symSize: 0x30 }
+  - { offset: 0xC46A8, size: 0x8, addend: 0x0, symName: '-[NTOtaManager cancelOTAForDevice:]', symObjAddr: 0xF84, symBinAddr: 0x1A974, symSize: 0xE0 }
+  - { offset: 0xC471D, size: 0x8, addend: 0x0, symName: '-[NTOtaManager cancelAllOTA]', symObjAddr: 0x1064, symBinAddr: 0x1AA54, symSize: 0x16C }
+  - { offset: 0xC4790, size: 0x8, addend: 0x0, symName: '-[NTOtaManager otaStateForDevice:]', symObjAddr: 0x11D0, symBinAddr: 0x1ABC0, symSize: 0xE0 }
+  - { offset: 0xC47FB, size: 0x8, addend: 0x0, symName: '-[NTOtaManager otaProgressForDevice:]', symObjAddr: 0x12B0, symBinAddr: 0x1ACA0, symSize: 0xF8 }
+  - { offset: 0xC4866, size: 0x8, addend: 0x0, symName: '-[NTOtaManager isOtaInProgressForDevice:]', symObjAddr: 0x13A8, symBinAddr: 0x1AD98, symSize: 0x2C }
+  - { offset: 0xC48C0, size: 0x8, addend: 0x0, symName: '-[NTOtaManager hasAnyOtaInProgress]', symObjAddr: 0x13D4, symBinAddr: 0x1ADC4, symSize: 0x8C }
+  - { offset: 0xC4909, size: 0x8, addend: 0x0, symName: '-[NTOtaManager cleanupSessionForDevice:]', symObjAddr: 0x1460, symBinAddr: 0x1AE50, symSize: 0xC0 }
+  - { offset: 0xC496D, size: 0x8, addend: 0x0, symName: '-[NTOtaManager registeredImplementations]', symObjAddr: 0x1520, symBinAddr: 0x1AF10, symSize: 0x8 }
+  - { offset: 0xC49A4, size: 0x8, addend: 0x0, symName: '-[NTOtaManager setRegisteredImplementations:]', symObjAddr: 0x1528, symBinAddr: 0x1AF18, symSize: 0xC }
+  - { offset: 0xC49E5, size: 0x8, addend: 0x0, symName: '-[NTOtaManager activeOtaSessions]', symObjAddr: 0x1534, symBinAddr: 0x1AF24, symSize: 0x8 }
+  - { offset: 0xC4A1C, size: 0x8, addend: 0x0, symName: '-[NTOtaManager setActiveOtaSessions:]', symObjAddr: 0x153C, symBinAddr: 0x1AF2C, symSize: 0xC }
+  - { offset: 0xC4A5D, size: 0x8, addend: 0x0, symName: '-[NTOtaManager lock]', symObjAddr: 0x1548, symBinAddr: 0x1AF38, symSize: 0x8 }
+  - { offset: 0xC4A94, size: 0x8, addend: 0x0, symName: '-[NTOtaManager setLock:]', symObjAddr: 0x1550, symBinAddr: 0x1AF40, symSize: 0xC }
+  - { offset: 0xC4AD5, size: 0x8, addend: 0x0, symName: '-[NTOtaManager .cxx_destruct]', symObjAddr: 0x155C, symBinAddr: 0x1AF4C, symSize: 0x3C }
+  - { offset: 0xC5076, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController initWithDevice:]', symObjAddr: 0x0, symBinAddr: 0x1AF88, symSize: 0x78 }
+  - { offset: 0xC5090, size: 0x8, addend: 0x0, symName: _kDefaultPassword, symObjAddr: 0x11C8, symBinAddr: 0x34878, symSize: 0x0 }
+  - { offset: 0xC538E, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController initWithDevice:]', symObjAddr: 0x0, symBinAddr: 0x1AF88, symSize: 0x78 }
+  - { offset: 0xC53D5, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController dealloc]', symObjAddr: 0x78, symBinAddr: 0x1B000, symSize: 0x54 }
+  - { offset: 0xC5408, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController cleanup]', symObjAddr: 0xCC, symBinAddr: 0x1B054, symSize: 0x38 }
+  - { offset: 0xC543B, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController passwordMSB]', symObjAddr: 0x104, symBinAddr: 0x1B08C, symSize: 0x70 }
+  - { offset: 0xC5482, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController passwordLSB]', symObjAddr: 0x174, symBinAddr: 0x1B0FC, symSize: 0x70 }
+  - { offset: 0xC54C9, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController authBlocks]', symObjAddr: 0x1E4, symBinAddr: 0x1B16C, symSize: 0x50 }
+  - { offset: 0xC5500, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController addAuthCallback:]', symObjAddr: 0x234, symBinAddr: 0x1B1BC, symSize: 0x98 }
+  - { offset: 0xC5543, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController handleAuthCallback:]', symObjAddr: 0x2CC, symBinAddr: 0x1B254, symSize: 0x170 }
+  - { offset: 0xC5599, size: 0x8, addend: 0x0, symName: '___45-[NTDeviceAuthController handleAuthCallback:]_block_invoke', symObjAddr: 0x43C, symBinAddr: 0x1B3C4, symSize: 0x18 }
+  - { offset: 0xC55F7, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController resetPasswordBlocks]', symObjAddr: 0x46C, symBinAddr: 0x1B3DC, symSize: 0x50 }
+  - { offset: 0xC562E, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController addResetCallback:]', symObjAddr: 0x4BC, symBinAddr: 0x1B42C, symSize: 0x98 }
+  - { offset: 0xC5671, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController handleResetCallback:]', symObjAddr: 0x554, symBinAddr: 0x1B4C4, symSize: 0x170 }
+  - { offset: 0xC56C7, size: 0x8, addend: 0x0, symName: '___46-[NTDeviceAuthController handleResetCallback:]_block_invoke', symObjAddr: 0x6C4, symBinAddr: 0x1B634, symSize: 0x14 }
+  - { offset: 0xC571E, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController startAuthHandler:callback:]', symObjAddr: 0x6D8, symBinAddr: 0x1B648, symSize: 0x38 }
+  - { offset: 0xC576D, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController startResetHandler:LSB:callback:]', symObjAddr: 0x710, symBinAddr: 0x1B680, symSize: 0x218 }
+  - { offset: 0xC58A5, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController sendAuthentication]', symObjAddr: 0x928, symBinAddr: 0x1B898, symSize: 0x2D8 }
+  - { offset: 0xC59FE, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController didUpdateReadAuthValue:]', symObjAddr: 0xC00, symBinAddr: 0x1BB70, symSize: 0x3FC }
+  - { offset: 0xC5AF5, size: 0x8, addend: 0x0, symName: '___49-[NTDeviceAuthController didUpdateReadAuthValue:]_block_invoke', symObjAddr: 0xFFC, symBinAddr: 0x1BF6C, symSize: 0x34 }
+  - { offset: 0xC5B40, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController deviceAuthState]', symObjAddr: 0x1044, symBinAddr: 0x1BFA0, symSize: 0x8 }
+  - { offset: 0xC5B77, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController isResettingPassword]', symObjAddr: 0x104C, symBinAddr: 0x1BFA8, symSize: 0x8 }
+  - { offset: 0xC5BAE, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController setIsResettingPassword:]', symObjAddr: 0x1054, symBinAddr: 0x1BFB0, symSize: 0x8 }
+  - { offset: 0xC5BE9, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController deviceRandom]', symObjAddr: 0x105C, symBinAddr: 0x1BFB8, symSize: 0x8 }
+  - { offset: 0xC5C20, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController setDeviceRandom:]', symObjAddr: 0x1064, symBinAddr: 0x1BFC0, symSize: 0x8 }
+  - { offset: 0xC5C5D, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController resetDevicePwMSB]', symObjAddr: 0x106C, symBinAddr: 0x1BFC8, symSize: 0x8 }
+  - { offset: 0xC5C94, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController setResetDevicePwMSB:]', symObjAddr: 0x1074, symBinAddr: 0x1BFD0, symSize: 0x8 }
+  - { offset: 0xC5CD1, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController resetDevicePwLSB]', symObjAddr: 0x107C, symBinAddr: 0x1BFD8, symSize: 0x8 }
+  - { offset: 0xC5D08, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController setResetDevicePwLSB:]', symObjAddr: 0x1084, symBinAddr: 0x1BFE0, symSize: 0x8 }
+  - { offset: 0xC5D45, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController setAuthBlocks:]', symObjAddr: 0x108C, symBinAddr: 0x1BFE8, symSize: 0xC }
+  - { offset: 0xC5D86, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController setResetPasswordBlocks:]', symObjAddr: 0x1098, symBinAddr: 0x1BFF4, symSize: 0xC }
+  - { offset: 0xC5DC7, size: 0x8, addend: 0x0, symName: '-[NTDeviceAuthController .cxx_destruct]', symObjAddr: 0x10A4, symBinAddr: 0x1C000, symSize: 0x3C }
+...
